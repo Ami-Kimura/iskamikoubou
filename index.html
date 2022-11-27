@@ -8,40 +8,104 @@
     <meta name="description" content="このサイトは「I's 髪工房」の非公式サイトです。">
     <meta name="keywords" content="I's 髪工房,ヘアサロン,北九州,八幡西区,穴生,ウェブ,hair salon,web">
 
-
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <!-- fontawesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
 
 
 </head>
 
 <body>
-    <div id="container">
+    <div class="wrapper">
 
-        <header>
-          <a href="#logo-mark">
-          </a>
-    
-          <nav>
-            <ul class="nav-menu">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#menu">Menu</a></li>
-              <li><a href="#access">Access</a></li>
-              <li><a href="#instagram"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </nav>
-    
+        <!-- start header -->
+        <header class="header">
+                <div class="header-logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="I's 髪工房" width="60px" height=auto;>
+                </a>
+                </div>
+
+
+                <nav>
+                    <ul class="header-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#access">Access</a></li>
+                        <li><a href="#instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-reserve">
+                    <a href="#reserve">ご予約   <i class="fa-solid fa-scissors"></i></a>
+                </div>
+                
         </header>
 
 
+        <!-- start main visual -->
+        <div class="main-visual">
+
+            <div class="mainvisual-inner">
+
+                <img src="images/mainvisual.png" class="mainvisual-img">
+
+                <img src="images/logo.svg" class="mainvisual-logo">
+            
+            </div><!-- /mainvisual-inner-->
+
+        </div><!-- /main-visual -->
 
 
 
+        <!-- start about contents -->
+        <div id=about class="about">
+            <div class="about-innter">
+                <h1>About</h1>
+                <p>美容院の紹介文</p>
+            </div>
+        </div>
 
+
+         <!-- start menu contents -->
+         <div id=menu class="menu">
+            <div class="menu-innter">
+                <h1>Menu</h1>
+                <p>メニューリスト</p>
+            </div>
+        </div>
+
+
+        <!-- start instagram contents -->
+        <div class="instagram">
+            <div class="instagram-innter">
+                <h1>Instagram</h1>
+                <p>Instagram 埋め込み</p>
+            </div>
+        </div>
+
+
+        <!-- start access contents -->
+        <div id=access class="access">
+            <div class="access-innter">
+                <h1>Access</h1>
+                <p>アクセス</p>
+            </div>
+        </div>
+
+
+        <!--  footer  -->
+        <footer class="footer">
+            <img src="images/logo_footer.svg" class="footer-logo">
+            <p>© I's 髪工房</p>
+        </footer>
+
+    </div><!--  wrapper -->
 </body>
 
 </html>
