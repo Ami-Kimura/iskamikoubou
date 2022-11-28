@@ -9,9 +9,13 @@
     <meta name="keywords" content="I's 髪工房,ヘアサロン,北九州,八幡西区,穴生,ウェブ,hair salon,web">
 
     <!-- style sheets -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js" defer></script>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
@@ -24,15 +28,20 @@
 
         <!-- start header -->
         <header class="header">
-                <div class="header-logo">
+                <div class="header-logo-inner">
                 <a href="index.html">
-                    <img src="images/logo.svg" alt="I's 髪工房" width="60px" height=auto;>
+                    <img src="images/logo.svg" alt="I's 髪工房" class="header-logo">
                 </a>
                 </div>
 
 
+                <div class="navButton">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                  </div>
+
+
                 <nav>
-                    <ul class="header-menu">
+                    <ul id="header-menu">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#menu">Menu</a></li>
@@ -44,6 +53,10 @@
                 <div class="header-reserve">
                     <a href="#reserve">ご予約   <i class="fa-solid fa-scissors"></i></a>
                 </div>
+
+                <div class="sp_reserve">
+                    <a href="#reserve"><img src="images/sp_reserve.png" class="sp_reserve-img"></a>
+                </div>
                 
         </header>
 
@@ -54,6 +67,10 @@
             <div class="mainvisual-inner">
 
                 <img src="images/mainvisual.png" class="mainvisual-img">
+                
+                <img src="images/sp_mainvisual.png" class="sp_mainvisual-img">
+
+
 
                 <img src="images/logo.svg" class="mainvisual-logo">
             
@@ -65,26 +82,38 @@
 
         <!-- start about contents -->
         <div id=about class="about">
-            <div class="about-innter">
-                <h1>About</h1>
-                <p>美容院の紹介文</p>
+            <div class="about-inner">
+                    <img src="images/about.png" class="about-img">
+
+                <div class="about-text">
+                    <span>I’s 髪工房は北九州市八幡西区穴生にある美容室です。</span>
+                    <br>
+                    <br>
+                    <span>1991年1月にオープンし、</span>
+                    <span>約20年間お客様と共に歳を重ねてきました。</span>
+                    <br>
+                    <br>
+                    <span>丸みを帯びたゆったりとした空間で2人のスタッフが</span>
+                    <span>あなたのヘアスタイルを素敵にします。</span>
+                </div><!-- /about-text -->
+
             </div>
         </div>
 
 
          <!-- start menu contents -->
          <div id=menu class="menu">
-            <div class="menu-innter">
-                <h1>Menu</h1>
-                <p>メニューリスト</p>
+            <div class="menu-inner">
+                <h2>Menu</h2>
+                <div class="menu-back"></div>
             </div>
         </div>
 
 
         <!-- start instagram contents -->
         <div class="instagram">
-            <div class="instagram-innter">
-                <h1>Instagram</h1>
+            <div class="instagram-inner">
+                <h2>Instagram</h2>
                 <p>Instagram 埋め込み</p>
             </div>
         </div>
@@ -92,8 +121,8 @@
 
         <!-- start access contents -->
         <div id=access class="access">
-            <div class="access-innter">
-                <h1>Access</h1>
+            <div class="access-inner">
+                <h2>Access</h2>
                 <p>アクセス</p>
             </div>
         </div>

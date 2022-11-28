@@ -1,0 +1,92 @@
+/*-------------------------------
+              BASE
+--------------------------------*/
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'DIN 2014', sans-serif;
+    font-size: 16px;
+    color: #80645B;
+    background-color: #F0ECE5;
+}
+  
+  /*-------------------------------
+              LAYOUT
+  --------------------------------*/
+  header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+  }
+
+
+  #wrapper {
+    margin: auto;
+}
+
+
+h2 {
+    font-size: 180%;
+    text-align: left;
+    padding: auto;
+    letter-spacing: .1em;
+    border:solid purple;
+}
+
+
+
+
+  
+  /*--------------------------------
+            Main Visual
+  ---------------------------------*/
+
+  
+  
+  
+  
+  /*--------------------------------
+                ABOUT
+  ---------------------------------*/
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

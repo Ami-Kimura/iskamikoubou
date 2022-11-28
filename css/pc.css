@@ -1,0 +1,213 @@
+/*-------------------------------
+             pc.css  min-width: 769px
+--------------------------------*/
+
+/*　画面サイズが769px以上の場合ここの記述が適用される　*/
+
+
+
+
+/*--------------------------------
+            header
+---------------------------------*/
+.header {
+    height: 7rem;
+    border:solid orange;
+}
+
+.header-logo-inner {
+    max-width: 5%;
+    max-height:7rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border: solid black;
+}
+
+.header-logo{
+    max-width: 100%;
+
+}
+
+
+.navButton{
+    display: none;
+}
+
+nav{
+    margin-top: -3rem;
+}
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    /*border:solid greenyellow;*/
+  }
+
+
+  nav ul li {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: #80645B;
+    font-size: 22px;
+    letter-spacing: .08em;
+  }
+
+
+.header-reserve {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2rem;
+    margin-right: 1.5rem;
+    /*border: solid blue;*/
+}
+
+.header-reserve a{
+    color: #80645B;
+    font-size: 20px;
+    letter-spacing: .1em;
+}
+
+.sp_reserve{
+    display: none;
+}
+
+
+
+/*-------------------------------
+              main visual
+--------------------------------*/
+.sp_mainvisual-img{
+    display: none;
+}
+
+
+.main-visual{
+    /*border: solid blue;*/
+    }
+    
+    .mainvisual-inner{
+        position: relative;
+        text-align: center;
+
+        /*border: solid blue;*/
+    }
+    
+    .mainvisual-img{
+        width: 100%;
+        height: auto;
+        /*border: solid blue;*/
+    }
+    
+    
+    
+    .mainvisual-logo{
+        position: absolute;
+        justify-content: center;
+        width: 10vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    
+    /*--------------------------------
+                About
+    ---------------------------------*/
+    .about{
+        padding-top: 7rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .about-inner{
+        max-height: 500px;
+        display: flex;
+        height: 600px;
+        border: solid blue;
+
+    }
+
+
+    /*.about-img{
+        border: solid rgb(72, 0, 255);
+    }*/
+
+    .about-text{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        font-size: 22px;
+        letter-spacing: .08em;
+        /*border: solid blue;*/
+       
+
+    }
+
+    
+    
+    /*--------------------------------
+                Menu
+    ---------------------------------*/
+    .menu{
+        padding: 3rem;
+    }
+
+    .menu-inner{
+        padding-top: 7rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+      
+    }
+
+    .menu-back{
+            width: 400px;
+            height: 200px;
+            border-radius: 18px;
+            background: #80645B;
+          
+    }
+    
+    
+    /*--------------------------------
+                Instagram
+    ---------------------------------*/
+    .instagram{
+        padding: 3rem;
+    }
+    
+    
+    /*--------------------------------
+                Access
+    ---------------------------------*/
+    .access{
+        padding: 3rem;
+    }
+
+    .access-inner{
+        padding-top: 7rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    
+    /*--------------------------------
+                footer
+    ---------------------------------*/
+    .footer{
+        text-align: center;
+        background-color: #80645B;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .footer-logo{
+        width: 7%;
+    }
+    
+    .footer p{
+        margin-top: 1rem;
+        color: #F0ECE5;
+    }
