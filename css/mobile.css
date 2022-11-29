@@ -14,7 +14,6 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 20px;
-        /*border:solid orange;*/
     }
     
     
@@ -48,11 +47,6 @@
 
         .header-logo{
             display: none;
-        }
-
-        .header-logo a{
-            
-            /*: solid black;*/
         }
     
     
@@ -113,11 +107,12 @@
                   About
     --------------------------------*/
     .about-inner{
-        margin-top: 5rem;
-        padding: 3rem;
+        padding: 0 3rem 3rem 0;
     }
+
+
     .about-img{
-        width: 40%;
+        width: 100%;
         height: auto;
     }
 
@@ -125,13 +120,15 @@
 
 
 /*-------------------------------
-                  Menu
+             Menu
 --------------------------------*/
 
 .menu-inner{
     padding: 3rem;
 }
-    .menu-back{
+
+
+.menu-back{
         width: auto;
         min-height: 400px;;
         border-radius: 18px;
@@ -153,6 +150,17 @@
 --------------------------------*/
 .access-inner{
     padding: 3rem;
+}
+
+.map-inner{
+    position: relative;
+    text-align: center;
+
+}
+
+.map{
+    width: 200; 
+    height: 200; 
 }
 
 

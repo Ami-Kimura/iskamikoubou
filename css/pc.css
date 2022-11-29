@@ -198,6 +198,18 @@ nav{
         padding-left: 5rem;
         padding-right: 5rem;
     }
+
+
+    .map-inner{
+        position: relative;
+        text-align: center;
+    
+    }
+    
+    .map{
+        width: 200; 
+        height: 200; 
+    }
     
     
     /*--------------------------------

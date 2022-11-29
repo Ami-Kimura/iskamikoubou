@@ -7,3 +7,15 @@ $(function(){
     });
   
   });
+
+
+
+
+  $(function(){
+
+  
+    $(".sp_reserve").click( function(){
+      $(".sp_reserve_calender").slideToggle();
+    });
+  
+  });
