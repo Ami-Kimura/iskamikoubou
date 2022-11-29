@@ -1,12 +1,11 @@
 $(function(){
 
-    $(".header-menu").hide();
   
-    $(".navButton").click( function(){
-      $(".header-menu").slideToggle();
-    });
-  
+  $(".navButton").click( function(){
+    $("nav").toggleClass('is-active');
   });
+
+});
 
 
 
