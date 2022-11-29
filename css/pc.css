@@ -201,14 +201,13 @@ nav{
 
 
     .map-inner{
-        position: relative;
-        text-align: center;
+        text-align: left;
     
     }
     
     iframe{
-        width: 600px; 
-        height: 500px; 
+        width: 550px; 
+        height: 300px; 
     }
     
     
