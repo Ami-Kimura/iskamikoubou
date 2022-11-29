@@ -10,14 +10,21 @@
     --------------------------------*/
     .header {
         display: flex;
+        height: 90px;
+        align-items: center;
+        justify-content: center;
         /*border:solid orange;*/
     }
     
     
         .navButton {
-        /*position: absolute;
-        top: 40px;
-        justify-items: flex-start;*/
+            text-align: left;
+          }
+
+
+          .navButton-inner{
+            margin-left: 1rem;
+            
           }
           
           .navButton a {
@@ -29,6 +36,11 @@
         #header-menu li {
             display: none;
         }
+
+        .header-logo-inner{
+        text-align: right;
+
+        }   
 
 
         .header-logo{
@@ -47,12 +59,17 @@
     
 
         .sp_reserve{
-            text-align: center;
+            text-align: right;
         }
 
 
         .sp_reserve-img{
             width: 25%;
+        } 
+
+        .logo-nav-reserse{
+            display: flex;
+            flex-direction: row-reverse;
         }
     
     

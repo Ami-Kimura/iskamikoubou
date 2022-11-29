@@ -11,8 +11,6 @@
             header
 ---------------------------------*/
 .header {
-    /*height: 7rem;
-    border:solid orange;*/
     height: 90px;
     line-height: 90px;
     padding: 10px;
