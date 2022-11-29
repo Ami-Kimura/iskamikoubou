@@ -177,7 +177,7 @@ nav.is-active {
                   About
     --------------------------------*/
 .about-inner {
-    padding: 0 3rem 3rem 0;
+    padding: 15rem 1rem 10rem 0;
 }
 
 
@@ -188,11 +188,7 @@ nav.is-active {
 }
 
 .about-text{
-    position: relative;
-    margin: 2rem 0 0 2rem;
-    border: solid 2px #80645B;
-    background-color: #F0ECE5;
-    top: -100px;
+    margin: 5rem 0 0 12rem;
     max-width: 300px;
 }
 
@@ -208,10 +204,11 @@ nav.is-active {
 
 .menu{
     background-color: #80645B;
-    height:400px;
+    height:500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 6rem;
 }
 
 .menu-inner {
@@ -224,6 +221,7 @@ nav.is-active {
 .sp_menulist-img{
     width: 80%;
     pointer-events: none;
+    justify-items:center;
 }
 
 
@@ -241,6 +239,9 @@ nav.is-active {
 /*-------------------------------
             Access
 --------------------------------*/
+.access{
+margin-bottom: 10rem;
+}
 .access-inner {
     padding: 3rem;
 }
@@ -254,6 +255,11 @@ nav.is-active {
 iframe {
     width: 300px;
     height: 200px;
+}
+
+.address-text{
+    margin-top: 2rem;
+    text-align: center;
 }
 
 

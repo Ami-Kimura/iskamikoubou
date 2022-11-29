@@ -122,9 +122,8 @@ nav{
                 About
     ---------------------------------*/
     .about{
-        padding-top: 7rem;
-        padding-left: 5rem;
-        padding-right: 5rem;
+        margin: 20rem 5rem 0 5rem;
+
     }
 
     .about-inner{
@@ -139,9 +138,7 @@ nav{
     }
 
     .about-text{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-bottom: 3rem;
+        padding: 0 3rem 3rem 8rem;
         font-size: 22px;
         letter-spacing: .08em;
         /*border: solid blue;*/
@@ -155,7 +152,7 @@ nav{
                 Menu
     ---------------------------------*/
     .menu{
-        padding: 3rem;
+        padding: 10rem 5rem 5rem 5rem;
     }
 
     .menu-inner{
@@ -195,7 +192,8 @@ nav{
                 Access
     ---------------------------------*/
     .access{
-        padding: 3rem;
+        margin-bottom:250px;
+        display: flex;
     }
 
     .access-inner{
@@ -215,6 +213,11 @@ nav{
         height: 300px; 
     }
     
+
+
+    .address-text{
+        float: right;
+    }
     
     /*--------------------------------
                 footer
