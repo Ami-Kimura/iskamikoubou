@@ -9,41 +9,35 @@
                   header
     --------------------------------*/
     .header {
-        height: 4rem;
-        background-color: #F0ECE5;
+        display: flex;
         /*border:solid orange;*/
     }
     
-
-
     
         .navButton {
-        position: absolute;
-        margin-top: .5rem;
-        margin-left: 1rem;
-            
+        /*position: absolute;
+        top: 40px;
+        justify-items: flex-start;*/
           }
           
           .navButton a {
             color: #80645B;
-            font-size: 2rem;
+            font-size: 35px;
           }
     
     
-          #header-menu li {
+        #header-menu li {
             display: none;
         }
 
 
-        .header-logo-inner {
-            text-align: center;
-            margin-top: 1rem;
-            /*border: solid black;*/
+        .header-logo{
+            width: 20%;
         }
 
-        .header-logo{
-            position: absolute;
-            width: 12%;
+        .header-logo a{
+            
+            /*: solid black;*/
         }
     
     
@@ -52,13 +46,13 @@
         }
     
 
+        .sp_reserve{
+            text-align: center;
+        }
+
 
         .sp_reserve-img{
-            position: absolute;
-            width: 10%;
-            top: 1.5rem;
-            right: 1rem;
-
+            width: 25%;
         }
     
     
@@ -66,43 +60,32 @@
                   main visual
     --------------------------------*/
     .main-visual{
-        padding: 0;
-    }
-    
-    
-    .mainvisual-inner{
-        margin: 0;
-
-    }
-    
-    /*.mainvisual-img{
-        display: none;
-    }*/
-
-    .mainvisual-img{
-        width: 100%;
-        height: 700px;
-        object-fit: cover;
-    }
-    
-    /*.sp_mainvisual-img{
-        height: 600px;
+        max-width: 768px;
+          margin: auto;
+      } 
       
-    }*/
-
-    .sp_mainvisual-img{
-       display: none;
       
-    }
-    
-    .mainvisual-logo{
-        position: absolute;
-        justify-content: center;
-        height:15vw;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
+          .mainvisual-inner{
+              position: relative;
+              text-align: center;
+          }
+          
+          .mainvisual-img{
+              width: 100%;
+              height: auto;
+          }
+          
+          
+          
+          .mainvisual-logo{
+              position: absolute;
+              justify-content: center;
+              width: 100%;
+              max-width: 120px;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%,-50%);
+          }
     
     
     
@@ -111,10 +94,53 @@
     /*-------------------------------
                   About
     --------------------------------*/
+    .about-inner{
+        margin-top: 5rem;
+        padding: 3rem;
+    }
     .about-img{
         width: 40%;
         height: auto;
     }
+
+
+
+
+/*-------------------------------
+                  Menu
+--------------------------------*/
+
+.menu-inner{
+    padding: 3rem;
+}
+    .menu-back{
+        width: auto;
+        min-height: 400px;;
+        border-radius: 18px;
+        background: #80645B;
+      
+}
+
+/*-------------------------------
+            Instagram
+--------------------------------*/
+.instagram-inner{
+    padding: 3rem;
+}
+
+
+
+/*-------------------------------
+            Access
+--------------------------------*/
+.access-inner{
+    padding: 3rem;
+}
+
+
+
+
+
     
     
     
