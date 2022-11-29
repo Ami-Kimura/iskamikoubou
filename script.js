@@ -14,7 +14,7 @@ $(function(){
 
   
     $(".sp_reserve").click( function(){
-      $(".sp_reserve_calender").slideToggle();
+      $("sp-calender").toggleClass('is-active');
     });
   
   });
