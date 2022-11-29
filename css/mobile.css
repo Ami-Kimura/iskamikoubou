@@ -200,12 +200,14 @@ nav.is-active {
 .menu{
     background-color: #80645B;
     height:500px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .menu-inner {
     padding: 5rem;
     text-align: center;
+    width: 100%;
     
 }
 
