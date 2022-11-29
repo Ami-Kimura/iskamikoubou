@@ -193,9 +193,17 @@ nav.is-active {
 /*-------------------------------
              Menu
 --------------------------------*/
+.menulist-img{
+    display: none;
+}
 
+.menu{
+    background-color: #80645B;
+    height:60vh;
+}
 .menu-inner {
     padding: 3rem;
+    
 }
 
 
