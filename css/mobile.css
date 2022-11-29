@@ -12,7 +12,6 @@
         display: flex;
         height: 90px;
         align-items: center;
-        justify-content: center;
         /*border:solid orange;*/
     }
     
@@ -44,7 +43,7 @@
 
 
         .header-logo{
-            width: 20%;
+            display: none;
         }
 
         .header-logo a{
@@ -67,10 +66,6 @@
             width: 25%;
         } 
 
-        .logo-nav-reserse{
-            display: flex;
-            flex-direction: row-reverse;
-        }
     
     
     /*-------------------------------
