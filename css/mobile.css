@@ -182,8 +182,8 @@ nav.is-active {
 
 
 .about-img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100vh;
     pointer-events: none;
 }
 
@@ -199,11 +199,19 @@ nav.is-active {
 
 .menu{
     background-color: #80645B;
-    height:60vh;
+    height:500px;
+    align-items: center;
+    justify-content: space-between;
 }
 .menu-inner {
-    padding: 3rem;
+    padding: 5rem;
+    text-align: center;
     
+}
+
+.sp_menulist-img{
+    width: 70%;
+    pointer-events: none;
 }
 
 
