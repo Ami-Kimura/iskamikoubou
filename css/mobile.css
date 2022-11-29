@@ -183,7 +183,7 @@ nav.is-active {
 
 .about-img {
     width: auto;
-    height: 100vh;
+    height: 375px;
     pointer-events: none;
 }
 
