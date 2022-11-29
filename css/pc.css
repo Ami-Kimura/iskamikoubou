@@ -206,9 +206,9 @@ nav{
     
     }
     
-    .map{
-        width: 200; 
-        height: 200; 
+    iframe{
+        width: 600px; 
+        height: 500px; 
     }
     
     
