@@ -98,6 +98,7 @@ nav{
     .mainvisual-img{
         width: 100%;
         height: auto;
+        pointer-events: none;
     }
     
     
@@ -133,9 +134,9 @@ nav{
     }
 
 
-    /*.about-img{
-        border: solid rgb(72, 0, 255);
-    }*/
+    .about-img{
+        pointer-events: none;
+    }
 
     .about-text{
         padding-left: 3rem;
@@ -164,13 +165,13 @@ nav{
       
     }
 
-    .menu-back{
-            width: auto;
-            min-height: 320px;;
-            border-radius: 18px;
-            background: #80645B;
-          
+
+    .menulist-img{
+        max-width: 100%;
+        pointer-events: none;
     }
+
+   
     
     
     /*--------------------------------
