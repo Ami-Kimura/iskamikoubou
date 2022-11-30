@@ -207,7 +207,7 @@ nav{
     .access-inner{
         padding-top: 7rem;
         padding-left: 5rem;
-        padding-right: 5rem;
+        padding-right: 5rem; 
     }
 
 
@@ -217,8 +217,8 @@ nav{
     }
     
     iframe{
-        width: 550px; 
-        height: 300px; 
+        aspect-ratio: 5/3;
+        width: 160%; 
     }
     
 
@@ -227,6 +227,8 @@ nav{
         float: right;
     }
     
+
+
     /*--------------------------------
                 footer
     ---------------------------------*/
