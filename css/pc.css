@@ -127,9 +127,8 @@ nav{
                 About
     ---------------------------------*/
     .about{
-        height: 500;
         padding: 170px;
-        max-width: 1500px;
+        max-width: 1400px;
         margin: auto;
         justify-content: space-between;
 
