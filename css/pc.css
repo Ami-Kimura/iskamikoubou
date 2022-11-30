@@ -69,7 +69,9 @@ nav{
 /*-----  reserve -----*/
 
 .header-reserve {
+    width: 15%;
     text-align: center;
+    /*border: solid blue;*/
 }
 
 .header-reserve a{
