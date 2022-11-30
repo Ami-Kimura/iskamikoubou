@@ -235,10 +235,20 @@ nav{
         padding-top: 2rem;
         padding-bottom: 1.5rem;
     }
-    
-    .footer-logo{
+
+
+    .footer-logo-inner{
         width: 7%;
     }
+
+
+    
+    .footer-logo{
+        width: 100%;
+        height: 20px;
+        object-fit: contain;
+    }
+
     
     .footer p{
         margin-top: 1rem;
