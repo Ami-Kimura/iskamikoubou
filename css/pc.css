@@ -122,7 +122,6 @@ nav{
                 About
     ---------------------------------*/
     .about{
-        display: flex;
         height: 500;
         padding: 170px;
         max-width: 1500px;
@@ -134,7 +133,7 @@ nav{
     .about-inner{
         max-height: 500px;
         display: flex;
-        
+
     }
 
 
