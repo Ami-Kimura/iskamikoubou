@@ -201,6 +201,7 @@ nav{
     ---------------------------------*/
     .access{
         margin: 10rem 5rem;
+        display: flex;
     }
 
     .access-inner{
@@ -211,7 +212,7 @@ nav{
 
 
     .map-inner{
-     
+        text-align: left;
     
     }
     
@@ -223,7 +224,7 @@ nav{
 
 
     .address-text{
-        
+        float: right;
     }
     
     /*--------------------------------
