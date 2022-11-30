@@ -208,8 +208,12 @@ nav{
     }
 
     .access-inner{
-        display: flex;
         
+        
+    }
+
+    .map-address{
+        display: flex;
     }
 
 
