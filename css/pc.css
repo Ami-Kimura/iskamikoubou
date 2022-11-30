@@ -200,11 +200,16 @@ nav{
                 Access
     ---------------------------------*/
     .access{
+        padding: 170px;
+        max-width: 1400px;
+        justify-content: space-between;
         margin: 10rem 5rem;
         
     }
 
     .access-inner{
+        display: flex;
+        max-height: 500px;
         
     }
 
