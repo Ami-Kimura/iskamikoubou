@@ -122,14 +122,19 @@ nav{
                 About
     ---------------------------------*/
     .about{
-        margin: 20rem 5rem 0 5rem;
+        display: flex;
+        height: 500;
+        padding: 170px;
+        max-width: 1500px;
+        margin: auto;
+        justify-content: space-between;
 
     }
 
     .about-inner{
         max-height: 500px;
         display: flex;
-        height: 600px;
+        
     }
 
 
