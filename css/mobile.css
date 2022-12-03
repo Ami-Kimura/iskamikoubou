@@ -165,12 +165,12 @@ nav.is-active {
     position: fixed;
     z-index:3;
     width: 10px;
-    height: 12px;
+    height: 10px;
     border-radius: 200%;
     background: #F0ECE5;
-  transform: scale(0);
-  left:-50px;
-    top:-50px;
+    transform: scale(0);
+    left: -50px;
+    top: 20px;
     transition: all 1s;
 }
 
