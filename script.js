@@ -1,20 +1,13 @@
-$(function(){
-
-  
-  $(".navButton").click( function(){
-    $("nav").toggleClass('is-active');
+$(".navButton").click(function () {//ボタンクリック
+  $(this).toggleClass('active');
+   $("#nav-menu").toggleClass('panelactive');
+     $(".circle-menu").toggleClass('circleactive');
   });
-
-});
-
-
-
-
-  $(function(){
-
   
-    $(".sp_reserve").click( function(){
-      $("sp-calender").toggleClass('is-active');
-    });
   
+  
+  $("#nav-menu a").click(function () {
+    　$(".navButton").removeClass('active');
+      $("#nav-menu").removeClass('panelactive');
+     $(".circle-menu").removeClass('circleactive');
   });

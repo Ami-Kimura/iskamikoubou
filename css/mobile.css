@@ -18,9 +18,10 @@
 
 /*-------- nav ----------*/
 .navButton {
-    z-index: 3;
     text-align: center;
-    width: 15%;
+  z-index: 9999;
+   width: 70px;
+   height:70px;
 }
 
 
@@ -29,19 +30,61 @@
 
 }
 
-.navButton a {
-    color: #80645B;
-    font-size: 35px;
+
+/*ボタン 線*/
+.navButton span{
+    display: inline-block;
+    transition: all 1s;/*アニメーションの設定*/
+    position: absolute;
+    left: 14px;
+    height: 4px;
+    border-radius: 2px;
+    background: #80645B;
+    width: 30px;
+  }
+
+/*nth-of-type:指定した要素の同じ要素タイプの子要素の中で、指定した数の位置にあるものを選択*/
+.navButton span:nth-of-type(1) {
+  top:35px; 
+}
+
+.navButton span:nth-of-type(2) {
+  top:45px;
+}
+
+.navButton span:nth-of-type(3) {
+  top:55px;
 }
 
 
+/*animation*/
+.navButton.active span:nth-of-type(1) {
+    top: 45px;
+    left: 13px;
+    transform: translateY(6px) rotate(45deg);
+    width: 7%;
+}
+
+.navButton.active span:nth-of-type(2) {
+	opacity: 0;/*透過*/
+}
+
+.navButton.active span:nth-of-type(3){
+    top: 57px;
+    left: 13px;
+    transform: translateY(-6px) rotate(-45deg);
+    width: 7%;
+}
+
+
+/*
 nav ul {
     position: fixed;
-    top: 0;
+    top: 100px;
     left: 0;
-    z-index: 1;
+    z-index: 999;
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +97,6 @@ nav ul li {
     height: 4rem;
     padding: .5em 1em;
     text-align: center;
-    color: #fff;
     box-sizing: border-box;
 }
 
@@ -75,6 +117,65 @@ nav {
 nav.is-active {
     pointer-events: auto;
     opacity: 1;
+}*/
+
+
+/*-------------
+  navのためのCSS 
+--------------*/
+
+#nav-menu{
+    position:fixed;
+    z-index: 999;
+  top:0;
+    left: -120%;
+  width:10%;
+    height: 50vh;
+  transition: all 1.5s;
+}
+
+
+#nav-menu.panelactive{
+    left: 0;
+}
+
+#nav-menu ul {
+    position: absolute;
+    z-index: 999;
+    top:25%;
+    left:165%;
+    
+}
+
+
+#nav-menu li{
+    text-align: center; 
+}
+
+#nav-menu li a{
+  color: #80645B;
+  padding:10px;
+  font-size: 20px;
+  letter-spacing: 2.8px;
+  display: block;
+}
+
+
+.circle-menu{
+    position: fixed;
+    z-index:3;
+    width: 10px;
+    height: 12px;
+    border-radius: 200%;
+    background: #F0ECE5;
+  transform: scale(0);
+  left:-50px;
+    top:-50px;
+    transition: all 1s;
+}
+
+.circle-menu.circleactive{
+  transform: scale(68);
 }
 
 
@@ -110,7 +211,7 @@ nav.is-active {
 }
 
 
-/*.sp-calender{
+.sp-calender{
     position: fixed;
     top: 0;
     left: 0;
@@ -122,7 +223,13 @@ nav.is-active {
     align-items: center;
     justify-content: center;
     background: #F0ECE5;
+}
 
+.sp-calender p {
+    color: #80645B;
+    font-size: 22px;
+    letter-spacing: .08em;
+    background-color: #F0ECE5;
 }
 
 .sp-calender{
@@ -134,7 +241,7 @@ nav.is-active {
   .sp-calender.is-active{
     pointer-events: auto;
     opacity: 1;
-  }*/
+  }
 
 
 
