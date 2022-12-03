@@ -29,21 +29,19 @@
     position: fixed;
     top: 0;
     left: 0;
-    /*margin-left: 1rem;*/
-
 }
 
 
 /*ボタン 線*/
 .navButton span{
     display: inline-block;
+    position: fixed;
     transition: all 1s;/*アニメーションの設定*/
-    position: absolute;
     left: 25px;
+    width: 30px;
     height: 4px;
     border-radius: 2px;
     background: #80645B;
-    width: 30px;
   }
 
 /*nth-of-type:指定した要素の同じ要素タイプの子要素の中で、指定した数の位置にあるものを選択*/
