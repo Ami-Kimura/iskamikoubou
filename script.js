@@ -3,17 +3,21 @@ $(".navButton").click(function () {//ボタンクリック
   $(this).toggleClass('active');
    $("#nav-menu").toggleClass('panelactive');
      $(".circle-menu").toggleClass('circleactive');
+        $("#header-menu").hide().fadeIn(1800);
   });
   
   
   
   $("#nav-menu").click(function () {
-    　$(".navButton").removeClass('active');
+    $(".navButton").removeClass('active');
       $("#nav-menu").removeClass('panelactive');
-     $(".circle-menu").removeClass('circleactive');
+        $(".circle-menu").removeClass('circleactive');
+          $("#header-menu").hide().fadeOut(1000);
   });
 
 ////////////////////////////////////////////////
+
+
 
 
 
