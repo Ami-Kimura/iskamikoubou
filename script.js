@@ -6,7 +6,7 @@ $(".navButton").click(function () {//ボタンクリック
   
   
   
-  $(".navButton").click(function () {
+  $("#nav-menu").click(function () {
     　$(".navButton").removeClass('active');
       $("#nav-menu").removeClass('panelactive');
      $(".circle-menu").removeClass('circleactive');
