@@ -53,3 +53,45 @@ $('.dummy').click(function() {
 
 });
 ////////////////////////////////////////////////
+
+
+
+
+
+/*calender*/
+
+document.addEventListener("DOMContentLoaded", function () {
+  var calendarEl = document.getElementById("calendar");
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    headerToolbar: {
+      // ヘッダーのボタン
+      left: "prev,next today",
+      center: "title",
+      right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth"
+    },
+    eventSources: [
+      {
+        // 日本の祝日カレンダー
+        googleCalendarApiKey: "AIzaSyCdHJPFMQ9cJfEoBZIqo1D62Ot6WG56uOc",
+        googleCalendarId: "c9a1e5cc381a8ce2e7ef9b86996f16f9a62ed7289e402649ffad995303128441@group.calendar.google.com"
+      }
+    ]
+  });
+  calendar.render();
+});
+
+//////////////////////////
+
+$(".sp_reserve-img").click(function () {
+  $(this).toggleClass('active');
+   $(".sp-calender").toggleClass('active');
+   $(".sp-calender span").toggleClass('active');
+
+  });
+
+  $(".sp_reserve-img").click(function () {
+    $(this).removeClass('active');
+     $(".sp-calender").removeClass('active');
+     $(".sp-calender span").removeClass('active');
+  
+    });
