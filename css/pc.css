@@ -218,7 +218,7 @@ nav{
     ---------------------------------*/
     .instagram{
         max-width: 1000px;
-        margin: auto;
+        margin: auto auto 300px auto;
 
 
     }
@@ -251,7 +251,7 @@ nav{
     ---------------------------------*/
     .access{
         max-width: 1000px;
-        margin: auto;
+        margin: auto auto 300px auto;
         
     }
 
@@ -276,10 +276,10 @@ nav{
     
     }
     
-    /*iframe{
+    .map iframe{
         aspect-ratio: 5/3;
         width: 160%; 
-    }*/
+    }
     
 
 
