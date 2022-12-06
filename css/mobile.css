@@ -309,19 +309,40 @@
 /*-------------------------------
             Instagram
 --------------------------------*/
-.instagram{
-    padding: 3rem;
-}
-
 
 .instagram-contents iframe{
     /*width: 300px;*/
     height: 380px;
 }
 
+
+.instagram{
+    max-width: 300px;
+    margin: auto auto 100px auto;
+
+}
 .instagram-flex{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
 
+.insta-height{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    
+
+}
+
+
+.instagram-inner{
+    
+}
+
+
+.instagram-contents iframe{
+    height: 300px;
 }
 
 
