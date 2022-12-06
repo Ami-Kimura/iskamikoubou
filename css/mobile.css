@@ -310,12 +310,6 @@
             Instagram
 --------------------------------*/
 
-.instagram-contents iframe{
-    /*width: 300px;*/
-    height: 380px;
-}
-
-
 .instagram{
     max-width: 300px;
     margin: auto auto 100px auto;
