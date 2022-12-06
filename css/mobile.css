@@ -283,9 +283,9 @@
 }
 
 .menu-inner {
-    padding: 5rem;
     text-align: center;
-    width: 100%;
+    max-width: 70%;
+    margin: auto;
     
 }
 
@@ -301,9 +301,10 @@
 /*-------------------------------
             Instagram
 --------------------------------*/
-.instagram-inner {
-    margin: 3rem;
+.instagram{
+    padding: 3rem;
 }
+
 
 
 
