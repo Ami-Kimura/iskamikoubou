@@ -55,45 +55,26 @@ $('.dummy').click(function() {
 ////////////////////////////////////////////////
 
 
-
-
-
-/*calender*/
-
-document.addEventListener("DOMContentLoaded", function () {
-  var calendarEl = document.getElementById("calendar");
-  var calendar = new FullCalendar.Calendar(calendarEl, {
-    headerToolbar: {
-      // ヘッダーのボタン
-      left: "prev,next today",
-      center: "title",
-      right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth"
-    },
-    eventSources: [
-      {
-        // 日本の祝日カレンダー
-        googleCalendarApiKey: "AIzaSyCdHJPFMQ9cJfEoBZIqo1D62Ot6WG56uOc",
-        googleCalendarId: "c9a1e5cc381a8ce2e7ef9b86996f16f9a62ed7289e402649ffad995303128441@group.calendar.google.com"
-      }
-    ]
-  });
-  calendar.render();
+/*pc-calender*/
+$(".header-reserve").click(function () {
+  $(".pc-calender").toggleClass('open');
 });
 
-//////////////////////////
+
+$(".header-reserve").click(function () {
+
+  });
 
 
 
 
-/*calender animation*/
+/*sp-calender*/
 $(".sp_reserve").click(function () {
     $(".sp-calender").toggleClass('open');
-    /*$(".sp-calender").hide().fadeIn(1800);*/
 });
-
 
 
   $(".sp_reserve").click(function () {
-    /*$(".sp-calender").hide().fadeOut(1800);*/
+    
 
     });
