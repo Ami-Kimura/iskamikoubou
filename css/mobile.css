@@ -313,6 +313,14 @@
     padding: 3rem;
 }
 
+ iframe {
+    width: 300px;
+    height: 500px;
+}
+
+.instagram-contents{
+    
+}
 
 
 
@@ -332,7 +340,7 @@ margin-bottom: 10rem;
 
 }
 
-iframe {
+.map-inner iframe {
     width: 300px;
     height: 200px;
 }
