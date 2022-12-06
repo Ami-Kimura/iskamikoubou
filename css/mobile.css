@@ -128,8 +128,8 @@
     z-index:3;
     width: 10px;
     height: 10px;
-    border-radius: 100%;
-    background: #F0ECE5;
+    /*border-radius: 100%;
+    background: #F0ECE5;*/
     transform: scale(0);
     left: -50px;
     top: 20px;
