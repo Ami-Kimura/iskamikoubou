@@ -164,7 +164,6 @@ nav{
                 About
     ---------------------------------*/
     .about{
-        padding: 170px;
         max-width: 1000px;
         margin: auto auto 150px auto;
     }
@@ -181,11 +180,9 @@ nav{
     }
 
     .about-text{
-        padding: 0 3rem 3rem 8rem;
+        
         font-size: 22px;
         letter-spacing: .08em;
-        /*border: solid blue;*/
-       
 
     }
 
