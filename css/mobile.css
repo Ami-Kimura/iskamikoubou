@@ -180,7 +180,7 @@
 }
 
 
-.sp-calender{
+.sp-calendar{
     display:none;
     
 }
@@ -190,7 +190,7 @@
 }
 
 
-.sp-calender.open{
+.sp-calendar.open{
     display: block;
     position: fixed;
     background-color: #F0ECE5;

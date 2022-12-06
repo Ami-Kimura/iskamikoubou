@@ -55,9 +55,9 @@ $('.dummy').click(function() {
 ////////////////////////////////////////////////
 
 
-/*pc-calender*/
+/*pc-calendar*/
 $(".header-reserve").click(function () {
-  $(".pc-calender").toggleClass('open');
+  $(".pc-calendarr").toggleClass('open');
 });
 
 
@@ -68,9 +68,9 @@ $(".header-reserve").click(function () {
 
 
 
-/*sp-calender*/
+/*sp-calendar*/
 $(".sp_reserve").click(function () {
-    $(".sp-calender").toggleClass('open');
+    $(".sp-calendar").toggleClass('open');
   
 });
 

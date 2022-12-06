@@ -85,7 +85,7 @@ nav{
 }
 
 
-.pc-calender{
+.pc-calendar{
     display:none;
     
 }
@@ -95,7 +95,7 @@ nav{
 }
 
 
-.pc-calender.open{
+.pc-calendar.open{
     display: block;
     position: fixed;
     background-color: #F0ECE5;
