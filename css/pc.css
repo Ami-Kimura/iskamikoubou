@@ -134,7 +134,7 @@ nav{
     .mainvisual-inner{
         position: relative;
         text-align: center;
-        margin-bottom: 140px;
+        margin-bottom: 250px;
     }
     
     .mainvisual-img{
@@ -165,11 +165,10 @@ nav{
     ---------------------------------*/
     .about{
         max-width: 1000px;
-        margin: auto auto 150px auto;
+        margin: auto auto 250px auto;
     }
 
     .about-inner{
-        max-height: 500px;
         display: flex;
 
     }
@@ -180,7 +179,7 @@ nav{
     }
 
     .about-text{
-        
+        margin-left: 50px;
         font-size: 22px;
         letter-spacing: .08em;
 
@@ -231,18 +230,16 @@ nav{
     }
 
     .insta-height{
-        width: calc(100% / 3);
+        width: calc(100% / 4);
+        margin: 20px;
         
 
     }
 
-
-    .instagram-inner{
-        
-    }
 
 
     .instagram-contents iframe{
+        max-width: 200px;
         height: 380px;
     }
     
@@ -251,7 +248,7 @@ nav{
                 Access
     ---------------------------------*/
     .access{
-        max-width: 770px;
+        max-width: 850px;
         margin: auto auto 300px auto;
         
     }
