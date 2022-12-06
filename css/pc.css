@@ -90,6 +90,10 @@ nav{
     
 }
 
+.pc-tell{
+    color: #80645B;
+}
+
 
 .pc-calender.open{
     display: block;

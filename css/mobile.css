@@ -185,6 +185,10 @@
     
 }
 
+.sp-tell{
+    color: #80645B;
+}
+
 
 .sp-calender.open{
     display: block;
