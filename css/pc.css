@@ -96,16 +96,24 @@ nav{
     position: fixed;
     background-color: #F0ECE5;
     z-index: 9999;
-    width: 50vw;
+    width: 30vw;
     height: 25%;
     right: 0;
     padding: 30px;
+    border-radius: 30px;
     animation: fade-in .4s;
 }
+
+
+
 
 @keyframes fade-in {
     0% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+.pc-tell span{
+    margin: 1em 0px;
 }
 
 

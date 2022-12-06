@@ -71,6 +71,7 @@ $(".header-reserve").click(function () {
 /*sp-calender*/
 $(".sp_reserve").click(function () {
     $(".sp-calender").toggleClass('open');
+  
 });
 
 
