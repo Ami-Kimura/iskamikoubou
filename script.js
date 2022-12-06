@@ -12,7 +12,7 @@ $(".navButton").click(function () {//ボタンクリック
     $(".navButton").removeClass('active');
       $("#nav-menu").removeClass('panelactive');
         $(".circle-menu").removeClass('circleactive');
-          $("#header-menu").hide().fadeOut(1000);
+          $("#header-menu").hide().fadeOut(1800);
   });
 
 ////////////////////////////////////////////////
@@ -82,16 +82,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //////////////////////////
 
-$(".sp_reserve-img").click(function () {
-  $(this).toggleClass('active');
-   $(".sp-calender").toggleClass('active');
-   $(".sp-calender span").toggleClass('active');
 
-  });
 
-  $(".sp_reserve-img").click(function () {
-    $(this).removeClass('active');
-     $(".sp-calender").removeClass('active');
-     $(".sp-calender span").removeClass('active');
-  
+
+/*calender animation*/
+$(".sp_reserve").click(function () {
+    $(".sp-calender").toggleClass('open');
+    /*$(".sp-calender").hide().fadeIn(1800);*/
+});
+
+
+
+  $(".sp_reserve").click(function () {
+    /*$(".sp-calender").hide().fadeOut(1800);*/
+
     });

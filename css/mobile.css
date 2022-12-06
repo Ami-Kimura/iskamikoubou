@@ -162,7 +162,6 @@
 .sp_reserve {
     width: 20%;
     z-index: 4;
-
 }
 
 
@@ -172,32 +171,33 @@
     object-fit: contain;
 }
 
-.sp_calender{
-    display: none;
+
+.sp-calender{
+    display:none;
+    
 }
 
 
-.sp-calender.active{
+.sp-calender.open{
+    display: block;
     position: fixed;
-    top: 0;
-    left: 0;
+    background-color: #F0ECE5;
     width: 100vw;
     height: 100%;
+    left: 0;
     padding: 30px;
-    background-color:#F0ECE5;
+    animation: fade-in .4s;
 }
 
-.sp-caleder span{
-    display: none;
+@keyframes fade-in {
+    0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
-.sp-calender span.active {
-    color: #80645B;
-    font-size: 22px;
-    letter-spacing: .08em;
-    background-color: #F0ECE5;
-    display: block;
-}
+
+
+
+
 
 
 
