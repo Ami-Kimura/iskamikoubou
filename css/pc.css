@@ -227,6 +227,11 @@ nav{
         padding-left: 5rem;
         padding-right: 5rem;
     }
+
+    .instagram-contents iframe{
+        width: 300px;
+        height: 800px;
+    }
     
     
     /*--------------------------------
