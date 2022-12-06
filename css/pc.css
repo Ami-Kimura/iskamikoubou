@@ -161,10 +161,8 @@ nav{
     ---------------------------------*/
     .about{
         padding: 170px;
-        max-width: 1400px;
-        margin: auto;
-        justify-content: space-between;
-
+        max-width: 1000px;
+        margin: auto auto 150px auto;
     }
 
     .about-inner{
@@ -194,7 +192,7 @@ nav{
     ---------------------------------*/
     .menu{
         max-width: 1000px;
-        margin: auto;
+        margin: auto auto 350px auto;
     }
 
     .menu-inner{
@@ -219,60 +217,32 @@ nav{
                 Instagram
     ---------------------------------*/
     .instagram{
-        padding: 3rem;
-    }
-    .instagram-inner{
-        padding-top: 7rem;
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
+        max-width: 1000px;
+        margin: auto;
 
-    .instagram-contents iframe{
-        width: 300px;
-        height: 400px;
-    }
 
+    }
     .instagram-flex{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        
     }
 
-    .insta-height1 {
-        width: 300px;
-        height: 200px;
-
-    }
-
-    .insta-height2 {
-        width: 300px;
-        height: 200px;
-
-    }
-    .insta-height3 {
-        width: 300px;
-        height: 200px;
-
-    }
-    .insta-height4 {
-        width: 300px;
-        height: 200px;
-
-    }
-    .insta-height5 {
-        width: 300px;
-        height: 200px;
+    .insta-height{
+        width: calc(100% / 3) *2
+        
 
     }
 
-    .insta-height6 {
-        width: 300px;
-        height: 200px;
-
-    }
 
     .instagram-inner{
-        height: 100%
+        
+    }
+
+
+    .instagram-contents iframe{
+        height: 380px;
     }
     
     
@@ -280,16 +250,18 @@ nav{
                 Access
     ---------------------------------*/
     .access{
-        padding: 170px;
-        max-width: 1400px;
-        justify-content: space-between;
-        margin: 10rem 5rem;
+        max-width: 1000px;
+        margin: auto;
         
     }
 
     .access-inner{
         
         
+    }
+
+    .access-flex{
+        display: flex;
     }
 
     .map-address{
@@ -314,6 +286,8 @@ nav{
     .address-text{
         
     }
+
+
     
 
 
