@@ -251,42 +251,36 @@ nav{
                 Access
     ---------------------------------*/
     .access{
-        max-width: 1000px;
+        max-width: 770px;
         margin: auto auto 300px auto;
         
     }
 
-    .access-inner{
-        
-        
-    }
+
 
     .access-flex{
         display: flex;
-    }
-
-    .map-address{
-        display: flex;
         justify-content: space-between;
-        
     }
 
-
-    .map-inner{
-        
-    
-    }
+ 
     
     .map iframe{
-        aspect-ratio: 5/3;
-        width: 160%; 
+        width: 400px;
+        height: 400px;
+        
     }
     
 
 
     .address-text{
-        
+        font-size: large;
     }
+
+    .address-text span:nth-of-type(1) {
+        font-weight: bold;
+        font-size: 25px;
+      }
 
 
     
