@@ -313,13 +313,10 @@
     padding: 3rem;
 }
 
- iframe {
+
+.instagram-contents iframe{
     width: 300px;
     height: 500px;
-}
-
-.instagram-contents{
-    
 }
 
 
