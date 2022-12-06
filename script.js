@@ -57,7 +57,7 @@ $('.dummy').click(function() {
 
 /*pc-calendar*/
 $(".header-reserve").click(function () {
-  $(".pc-calendarr").toggleClass('open');
+  $(".pc-calendar").toggleClass('open');
 });
 
 
