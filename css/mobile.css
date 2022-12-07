@@ -288,6 +288,12 @@
 
 }
 
+.sp-main-active {
+    width: 100%;
+    pointer-events: none;
+
+}
+
 
 
 .mainvisual-logo {
@@ -300,6 +306,27 @@
     transform: translate(-50%, -50%);
 }
 
+
+
+/*#slide {
+    position: relative;
+    text-align: center;
+ }
+
+ #slide img {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 8;
+    opacity: 0.0;
+ }
+ #slide img.active {
+    z-index: 10;
+    opacity: 1.0;
+ }
+ #slide img.last-active {
+    z-index: 9;
+ }*/
 
 
 
@@ -375,7 +402,7 @@
 }
 
 .insta-height{
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     margin: 5px;
 
 }
@@ -385,7 +412,8 @@
 
 
 .instagram-contents iframe{
-    height: 140px;
+    width: 135px !important;
+    height: 190px;
     min-width: inherit !important;
 }
 
@@ -395,7 +423,8 @@
             Access
 --------------------------------*/
 .access{
-margin-bottom: 10rem;
+    max-width: 300px;
+    margin: auto auto 150px auto;
 }
 
 .access-inner {
