@@ -335,7 +335,7 @@
                   About
     --------------------------------*/
 .about-inner {
-    padding: 15rem 1rem 10rem 0;
+    padding: 15rem 1rem 1rem 0;
 }
 
 
@@ -348,6 +348,22 @@
 .about-text{
     margin: 5rem 0 0 12rem;
     max-width: 300px;
+}
+
+.about-inner2 {
+    padding: 10rem 1rem 10rem 0;
+}
+
+.about-text2{
+    margin: 5rem 0 0 12rem;
+    max-width: 300px;
+}
+
+.about-img2 {
+    width: auto;
+    height: 375px;
+    pointer-events: none;
+    border-radius: 0 10px 10px 0;
 }
 
 
