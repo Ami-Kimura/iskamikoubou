@@ -238,6 +238,27 @@ nav{
 
     }
 
+
+
+    .about-inner2{
+        display: flex;
+       flex-direction: row-reverse;
+       justify-content: center;
+        
+    }
+
+
+    .about-img2{
+        pointer-events: none;
+        border-radius: 5px;
+    }
+
+    .about-text2{
+        font-size: 22px;
+        letter-spacing: .08em;
+        margin-right: 140px;
+    }
+
     
     
     /*--------------------------------
