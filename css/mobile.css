@@ -208,6 +208,8 @@
 
 .sp_dec_calendar{
     margin-top: 30px;
+    width: 220px;   
+    height: auto;
     pointer-events: none;
 }
 
