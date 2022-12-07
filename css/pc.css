@@ -342,6 +342,7 @@ nav{
 
     .address-text{
         font-size: large;
+        color: #80645B;
     }
 
     .address-text span:nth-of-type(1) {
