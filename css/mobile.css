@@ -183,7 +183,7 @@
 
 
 .sp-calendar{
-    display:none;
+    display: none;
     
 }
 
@@ -274,6 +274,10 @@
 /*-------------------------------
                   main visual
     --------------------------------*/
+.main-visual{
+    position: relative;
+    top: -100px;
+    }
 
 .mainvisual-inner {
     position: relative;
