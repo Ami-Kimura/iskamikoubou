@@ -317,7 +317,7 @@
 
 
 
-/*#slide {
+#slide {
     position: relative;
     text-align: center;
  }
@@ -335,7 +335,7 @@
  }
  #slide img.last-active {
     z-index: 9;
- }*/
+ }
 
 
 
