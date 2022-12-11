@@ -265,9 +265,9 @@
     --------------------------------*/
 .main-visual{
     position: relative;
-    top: -100px;
+    top: -120px;
     width: auto;
-    height: 600px;
+    height: 500px;
     }
 
 .mainvisual-inner {
@@ -318,7 +318,8 @@
  }
 
  #sp-slide{
-    height: 650px;
+    max-height: 500px;
+    margin: auto;
  }
 
  #sp-slide img {
@@ -330,9 +331,9 @@
     width: 100%;
     pointer-events: none;*/
 
-    background-position: center center;
+   /* background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     z-index: 0;
     opacity: 0;
     width: 100%;
@@ -341,6 +342,7 @@
     left: 0;
     -webkit-animation: anime 50s 0s infinite;
     animation: anime 50s 0s infinite;
+    
  }
 
 
@@ -383,8 +385,6 @@
       }
       35% {
           opacity: 0;
-          transform: scale(1.1) ;
-           z-index:9;
       }
       100% { opacity: 0 }
   }
