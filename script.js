@@ -102,5 +102,5 @@ $(".sp_reserve").click(function () {
    }
    
    $(function() {
-      setInterval( "slideSwitch()", 5000 );
+      setInterval( "slideSwitch()", 3000 );
    });
