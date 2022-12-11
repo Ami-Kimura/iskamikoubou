@@ -74,7 +74,7 @@
 }
 
 .navButton.active span:nth-of-type(2) {
-	opacity: 0;/*透過*/
+	opacity: 0;
 }
 
 .navButton.active span:nth-of-type(3){
