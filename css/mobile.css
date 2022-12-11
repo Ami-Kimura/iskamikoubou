@@ -1,8 +1,8 @@
 /*-------------------------------
-              Mobile  max-width: 768px
+              Mobile  max-width: 480px
 --------------------------------*/
 
-/*　画面サイズが768px以下の場合ここの記述が適用される　*/
+/*　画面サイズが480px以下の場合ここの記述が適用される　*/
 
 
 .body{
@@ -291,21 +291,25 @@
 
 
 .mainvisual-logo{
-    position: absolute;
+    position: relative;
     z-index: 99;
+    
 }
 
 .mainvisual-logo-inner{
-    max-width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,250%);
+    
 }
 
 
 .mainvisual-logo-svg {
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    pointer-events: none;
+    
 }
 
 
@@ -489,6 +493,7 @@
     background-color: #80645B;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
+    width: 100%;
 }
 
 .footer-logo {
