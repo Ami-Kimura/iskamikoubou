@@ -261,22 +261,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------------
                   main visual
     --------------------------------*/
@@ -331,7 +315,7 @@
     text-align: center;
  }
 
- #slide img {
+ #sp-slide img {
     position: absolute;
     top: 0;
     left:0;
@@ -341,11 +325,11 @@
     pointer-events: none;
  }
 
- #slide img.active {
+ #sp-slide img.active {
     z-index: 10;
     opacity: 1.0;
  }
- #slide img.last-active {
+ #sp-slide img.last-active {
     z-index: 15;
  }
 

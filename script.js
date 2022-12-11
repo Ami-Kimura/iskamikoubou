@@ -85,12 +85,12 @@ $(".sp_reserve").click(function () {
 
 
     function slideSwitch() {
-      var $active = $('#slide img.active');
+      var $active = $('#sp-slide img.active');
    
-      if ( $active.length == 0 ) $active = $('#slide img:last');
+      if ( $active.length == 0 ) $active = $('#sp-slide img:last');
    
       var $next =  $active.next().length ? $active.next()
-         : $('#slide img:first');
+         : $('#sp-slide img:first');
    
       $active.addClass('last-active');
    
