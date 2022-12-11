@@ -266,26 +266,16 @@
 .main-visual{
     position: relative;
     top: -100px;
+    width: auto;
+    height: 600px;
     }
 
 .mainvisual-inner {
-    text-align: center;
+    justify-content: center;
 }
 
 .mainvisual-img {
     display: none;
-}
-
-.sp-mainvisual-img {
-    width: 100%;
-    pointer-events: none;
-
-}
-
-.sp-main-active {
-    width: 100%;
-    pointer-events: none;
-
 }
 
 
@@ -551,7 +541,6 @@
                 footer
     ---------------------------------*/
 .footer {
-    text-align: center;
     background-color: #80645B;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
@@ -565,4 +554,8 @@
 .footer p {
     margin-top: 1rem;
     color: #F0ECE5;
+}
+
+.address-text{
+    text-align: center;
 }
