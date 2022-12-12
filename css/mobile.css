@@ -312,7 +312,7 @@
 
 .slide {
     position: relative; 
-    height: auto;
+    height: 800px;
     width: 375px
     overflow: hidden;
  }
@@ -429,7 +429,7 @@
     --------------------------------*/
 .about{
     max-width: 300px;
-    max-height:500px;
+    height:500px;
     margin: 0 auto;
 
 }
@@ -445,8 +445,8 @@
 
 
 .about-img-inner1, .about-img-inner2{
-    height: 300px;
-    width: auto;
+    
+    
 }
 
 .about-img1, .about-img2 {
@@ -486,6 +486,43 @@
     width: 80%;
     pointer-events: none;
     justify-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menu1{
+    background-color: #80645B;
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.menu-inner1 {
+    
+    max-width: 400px;
+    
+}
+
+.menu-list1{
+    display: flex;
+    
+}
+
+
+.cut, .color, .straight,.perm{
+    background: #F0ECE5
+}
+
+
+h2{
+    color: #F0ECE5;
 }
 
 
