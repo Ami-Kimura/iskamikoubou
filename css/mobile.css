@@ -481,7 +481,9 @@
 /*-------------------------------
              Menu
 --------------------------------*/
-.menulist-img{
+
+
+/*.menulist-img{
     display: none;
 }
 
@@ -505,7 +507,7 @@
     width: 80%;
     pointer-events: none;
     justify-items:center;
-}
+}*/
 
 
 
