@@ -272,61 +272,105 @@ nav{
 
     
     
-    /*--------------------------------
+ /*--------------------------------
                 Menu
-    ---------------------------------*/
+---------------------------------*/
 
     .menu1{
-        background-color: #80645B;
-        padding: 50px;
-        border-radius: 10px;
-        height: 450px;
-        max-width: 1000px;
-        margin: auto auto 350px auto;
-    }
+    background-color: #80645B;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto auto 300px auto;
     
-    .menu-inner1 {
-        max-width: 400px;
-        
-    }
+}
+
+.menu-inner1 {
+    padding: 35px 0;
     
-    .menu-list1{
-        display: inline-flex;
-    
-    }
-    
-    
-    .cut, .color, .straight,.perm{
-        width: 200px;
-        height: 210px;
-        border-radius: 110px 110px 5px 5px;
-        background: #F0ECE5
-        
-    }
-    
-    
-    .cut-inner, .color-inner, .straight-inner,.perm-inner{
-        padding: 30px 10px;
-        border-radius: 60px 60px 0px 0px;
-        
-    }
-        
-    
-    .menu-inner1 h2{
-        color: #F0ECE5;
-        font-size: 180%;
-        letter-spacing: .1em;
-    }
-    
-    .menu-inner1 h3, .menu-inner1 p{
-        text-align: center;
-    }
+}
+
+.menu-list1{
+    padding: 0 18px;
+}
+
+.menu-list1-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
 
 
-    .menu-other p{
-        text-align: left;
-        color:#F0ECE5
-    }
+.cut, .color, .straight,.perm{
+    width: 135px;
+    height: 180px;
+    margin-bottom: 45px;
+    border-radius: 80px 80px 5px 5px;
+    background: #F0ECE5
+     
+    
+    
+}
+
+
+.cut-inner, .color-inner, .straight-inner,.perm-inner{
+    padding: 30px 10px;
+    border-radius: 60px 60px 0px 0px;
+    height: 100%;
+}
+
+    
+
+.menu-inner1 h2{
+    font-size: 180%;
+    color: #F0ECE5;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.menu-inner1 h3, .menu-inner1 p{
+    text-align: center;
+}
+
+.menu-inner1 h3{
+    margin-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: .07em;
+}
+
+
+.menu-list-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    letter-spacing: .03em;
+}
+
+.straight-inner h3{
+    font-size: 20px;
+}
+
+
+.menu-list-flex span{
+    width: 30px;
+    height: 1px;
+    border-radius: 2px;
+    background: #80645B;
+
+}
+
+
+.menu-other-inner{
+    margin: 0 36px;
+}
+
+
+.menu-other p{
+    text-align: left;
+    color:#F0ECE5
+}
 
    
     
