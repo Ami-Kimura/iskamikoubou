@@ -217,9 +217,11 @@ nav{
 
     }
 
-    .sp-main_img{
+    .sp-main_img1{
         display: none;
     }
+
+    
     
     
     /*--------------------------------
@@ -241,7 +243,6 @@ nav{
     }
 
     .about-text{
-        margin-left: 50px;
         font-size: 22px;
         letter-spacing: .08em;
 
@@ -257,15 +258,16 @@ nav{
     }
 
 
-    .about-img2{
+
+    .about-img1, .about-img2{
+        width: 400px;
+        border-radius: 5px;
         pointer-events: none;
-        border-radius: 10px;
     }
 
     .about-text2{
         font-size: 22px;
         letter-spacing: .08em;
-        margin-right: 140px;
     }
 
     
