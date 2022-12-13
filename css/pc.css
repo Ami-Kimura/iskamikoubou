@@ -392,17 +392,16 @@ nav{
     }
 
     .insta-height{
-        width: calc(100% / 4);
+        width: calc(100% / 3 - 40px);
         margin: 20px;
         
 
     }
 
 
-
-    .instagram-contents iframe{
-        max-width: 200px;
-        height: 380px;
+    .insta-height img{
+        width: 100%;
+    
     }
     
     
