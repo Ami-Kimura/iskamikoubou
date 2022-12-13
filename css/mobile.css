@@ -500,7 +500,7 @@
 
 .menu1{
     background-color: #80645B;
-    padding: 50px;
+    padding: 37px;
     margin-bottom: 6rem;
     width: 100%;
 }
@@ -513,6 +513,7 @@
 .menu-list1{
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
