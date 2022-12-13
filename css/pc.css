@@ -291,6 +291,64 @@ nav{
         display: none;
     }
 
+
+
+
+
+
+
+    .menu1{
+        background-color: #80645B;
+        padding: 50px;
+        margin-bottom: 6rem;
+        border-radius: 10px;
+        height: 450px;
+        width: auto;
+    }
+    
+    .menu-inner1 {
+        max-width: 400px;
+        
+    }
+    
+    .menu-list1{
+        display: inline-flex;
+    
+    }
+    
+    
+    .cut, .color, .straight,.perm{
+        width: 200px;
+        height: 210px;
+        border-radius: 110px 110px 5px 5px;
+        background: #F0ECE5
+        
+    }
+    
+    
+    .cut-inner, .color-inner, .straight-inner,.perm-inner{
+        padding: 30px 10px;
+        border-radius: 60px 60px 0px 0px;
+        
+    }
+        
+    
+    .menu-inner1 h2{
+        color: #F0ECE5;
+        font-size: 180%;
+        letter-spacing: .1em;
+    }
+    
+    .menu-inner1 h3, .menu-inner1 p{
+        text-align: center;
+    }
+
+
+    .menu-other p{
+        text-align: left;
+        color:#F0ECE5
+    }
+
    
     
     
