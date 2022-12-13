@@ -364,21 +364,21 @@
              Menu
 --------------------------------*/
 
-.menu1{
+.menu {
     background-color: #80645B;
     margin-bottom: 6rem;
 }
 
-.menu-inner1 {
+.menu-inner {
     padding: 35px 0;
     
 }
 
-.menu-list1{
+.menu-list {
     padding: 0 18px;
 }
 
-.menu-list1-inner{
+.menu-list-inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -386,7 +386,7 @@
 }
 
 
-.cut, .color, .straight,.perm{
+.cut, .color, .straight,.perm {
     width: 135px;
     height: 170px;
     margin-bottom: 45px;
@@ -398,32 +398,30 @@
 }
 
 
-.cut-inner, .color-inner, .straight-inner,.perm-inner{
-    padding: 30px 10px;
-    border-radius: 60px 60px 0px 0px;
-    height: 100%;
+.cut-inner, .color-inner, .straight-inner,.perm-inner {
+    padding: 40px 10px;
 }
 
     
 
-.menu-inner1 h2{
+.menu-inner h2 {
     color: #F0ECE5;
     text-align: center;
     margin-bottom: 25px;
 }
 
-.menu-inner1 h3, .menu-inner1 p{
+.menu-inner h3, .menu-inner p {
     text-align: center;
 }
 
-.menu-inner1 h3{
+.menu-inner h3 {
     margin-bottom: 10px;
     font-size: 22px;
     letter-spacing: .07em;
 }
 
 
-.menu-list-flex{
+.menu-list-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -466,6 +464,7 @@
 .instagram{
     max-width: 300px;
     margin: auto auto 140px auto;
+    pointer-events: none;
 
 }
 .instagram-flex{
@@ -520,7 +519,9 @@
 .map-inner iframe {
     width: 300px;
     height: 200px;
+    border-radius: 10px;
 }
+
 
 .address-text{
     margin-top: 2rem;
