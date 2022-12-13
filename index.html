@@ -36,7 +36,24 @@
 
 <body>
 
+
+    
+
+
+
     <div id="container">
+
+
+
+
+        
+    <!-- loading -->
+    <div id="loading">
+         <div id="loading_inner">
+            <img src="images/logo.svg" alt="I's 髪工房" class="loading-logo">
+        </div>
+    </div>
+
 
 
     <!-- start header -->
@@ -77,6 +94,11 @@
 
         <div class="header-reserve">
             <a href="#reserve">ご予約 <i class="fa-solid fa-scissors"></i></a>
+
+            <div class="batsu">
+                <span></span>
+                <span></span>
+            </div>
 
 
             <div class="pc-calendar">
@@ -120,14 +142,21 @@
         </div>
 
         <div class="sp_reserve">
+
+
             <a href="#reserve"><img src="images/sp_reserve.png" class="sp_reserve-img"></a>
             
             <div class="sp-calendar">
 
+                <div class="batsu">
+                    <div class="batsu-inner">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+
 
                 <div class="sp_googlecalendar">
                     <img src="images/dec_calendar.png" class="sp_dec_calendar">
-                    
                 </div>
 
 
@@ -185,6 +214,20 @@
                 <img src="images/mainvisual.png" class="mainvisual-img">
 
 
+        <!-- pc-slider container -->
+        <div class="pc_swiper">
+            <!-- slider wrapper -->
+            <div class="pc_swiper_wrapper">
+                <!-- slide -->
+                <div class="pc_swiper_slide" style="background-image: url('images/mainvisual.png')"></div>
+                <div class="pc_swiper_slide" style="background-image: url('images/mainvisual.png')"></div>
+                <div class="pc_swiper_slide" style="background-image: url('images/mainvisual.png')"></div>
+                <div class="pc_swiper_slide" style="background-image: url('images/mainvisual.png')"></div>
+                <div class="pc_wiper_slide" style="background-image: url('images/mainvisual.png')"></div>
+            </div>
+        </div>
+
+
         <!-- slider container -->
         <div class="swiper">
             <!-- slider wrapper -->
@@ -200,11 +243,6 @@
 
 
                 
-              
-
-
-
-                <!-- <img src="images/sp-mainvisual.png" class="sp-mainvisual-img"> -->
 
 
             </div><!-- /mainvisual-inner-->
@@ -226,6 +264,7 @@
         
         
         <div id=about class="about">
+            
             <div class="about-inner">
                 <div class="about-img-inner1">
                     <img src="images/about-img1.png" class="about-img1">
@@ -234,7 +273,7 @@
 
                 <div class="about-text-inner">
                     <div class="about-text">
-                        <span>I’s 髪工房は北九州市八幡西区穴生にある美容室です。</span>
+                        <span>I's 髪工房は北九州市八幡西区穴生にある美容室です。</span>
                         <br>
                         <br>
                         <span>1991年1月にオープンし、</span>
@@ -516,6 +555,22 @@
                 }
          });
      </script>
+
+
+        <!-- pc_swiper -->
+        <script>
+            const pc_swiper = new Swiper(".pc_swiper", {
+            loop: true,
+            effect: 'fade',
+            speed: 1200,
+            autoplay: {
+            delay: 5000,
+                    }
+            });
+        </script>
+
+
+
 
 </body>
 

@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'DIN 2014', sans-serif;
+    font-family: 'DIN 2014',  YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
     font-size: 16px;
     color: #80645B;
     background-color: #F0ECE5;
@@ -18,6 +18,33 @@ body {
   /*-------------------------------
               LAYOUT
   --------------------------------*/
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background: #F0ECE5
+}
+
+
+#loading_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+
+#loading img{
+  max-width: 80px;
+}
+
+
   header {
     top: 0;
     left: 0;

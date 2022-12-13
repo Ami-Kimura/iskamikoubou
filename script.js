@@ -1,5 +1,18 @@
+//loading
+$(window).on('load',function(){
+  $("#loading").delay(2000).fadeOut('slow');
+  $("#loading_inner").delay(1600).fadeOut('slow');
+});
+
+////////////////////////////////////////////////
+
+
+
+
+
+
 // SP hamburger-menu
-$(".navButton").click(function () {//ボタンクリック
+$(".navButton").click(function () {
   $(this).toggleClass('active');
    $("#nav-menu").toggleClass('panelactive');
      $(".circle-menu").toggleClass('circleactive');
@@ -26,18 +39,17 @@ $(function() {
 
   $('a[href^="#"]').click(function() {
 
-    // 初期設定：移動時間(ms)と頭出し位置
+  
     var speed = 1200;
     var offset = 0;
 
-    // アンカーを取得
     var anchor = $(this).attr("href");
 
-    // ターゲットの位置を取得
+
     var target = $(anchor == "#" || anchor == "" ? 'html' : anchor);
     var position = target.offset().top + offset;
 
-    // スクロール（アニメーション）
+
     $('body,html').animate({
       scrollTop: position
     }, speed, 'swing');
@@ -57,7 +69,7 @@ $('.dummy').click(function() {
 
 
 
-  //pc-slider 
+  //pc-calendar 
 $(".header-reserve").click(function () {
   $(".pc-calendar").toggleClass('open');
 });
@@ -72,16 +84,15 @@ $(".header-reserve").click(function () {
 
 
 
-  //sp-calender
+  //sp-calendar
 $(".sp_reserve").click(function () {
     $(".sp-calendar").toggleClass('open');
-  
+     
 });
 
 
-$(".sp_reserve").click(function () {
-    
-});
+
+
  ////////////////////////////////////////////////
 
 
@@ -98,6 +109,8 @@ $(".sp_reserve").click(function () {
      }
   });
 });
+
+
 
 
 
