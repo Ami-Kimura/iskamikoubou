@@ -502,16 +502,18 @@
     background-color: #80645B;
     padding: 50px;
     margin-bottom: 6rem;
+    width: 100%;
 }
 
 .menu-inner1 {
-    display: inline-flex;
     max-width: 400px;
     
 }
 
 .menu-list1{
-    
+    display: inline-flex;
+    flex-wrap: wrap;
+
 }
 
 
@@ -538,7 +540,7 @@
     color: #F0ECE5;
 }
 
-.menu-inner1 h3, p{
+.menu-inner1 h3, .menu-inner1 p{
     text-align: center;
 }
 
