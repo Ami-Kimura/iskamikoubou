@@ -275,27 +275,6 @@ nav{
     /*--------------------------------
                 Menu
     ---------------------------------*/
-    .menu{
-        max-width: 1000px;
-        margin: auto auto 350px auto;
-    }
-
-
-
-    .menulist-img{
-        max-width: 100%;
-        pointer-events: none;
-    }
-
-    .sp_menulist-img{
-        display: none;
-    }
-
-
-
-
-
-
 
     .menu1{
         background-color: #80645B;

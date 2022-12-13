@@ -289,15 +289,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,250%);
-
-
-    /*position: absolute;
-        justify-content: center;
-        width: 100%;
-        max-width: 80px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);*/
     
 }
 
@@ -307,115 +298,6 @@
     
 }
 
-
-/*
-.slide {
-    position: relative; 
-    height: 800px;
-    width: 375px
-    overflow: hidden;
- }
-
- .sp-slide-inner{
-    width: 375px;
-    height:500px;
- }
-
- 
-
- .sp-main_img{
-    z-index:0;
-    opacity: 0;
-    width: 375px;
-    height: 500px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: anime 50s 0s infinite;
-    animation: anime 50s 0s infinite; 
-    pointer-events: none;
-}
-
-.sp-main_img1,.sp-main_img2,.sp-main_img3,.sp-main_img4,.sp-main_img5{
-    width: auto;
-    height: 700px;
-    
-}
-
-
-
- 
-
- /*#sp-slide img {
-    /*position: absolute;
-    top: 0;
-    left:0;
-    z-index: 0;
-    opacity: 0.0;
-    width: 100%;
-    pointer-events: none;*/
-
-   /* background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    /*z-index: 0;
-    opacity: 0;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: anime 50s 0s infinite;
-    animation: anime 50s 0s infinite;
-    
- }*/
-
-
-
-/*
- .sp-main_img:nth-of-type(1){
-    -webkit-animation-delay: 0s;
-      animation-delay: 0s; 
- }
-
- .sp-main_img:nth-of-type(2){
-    -webkit-animation-delay: 10s;
-      animation-delay: 10s; 
- }
-
- .sp-main_img:nth-of-type(3){
-    -webkit-animation-delay: 20s;
-      animation-delay: 20s; 
- }
-
- .sp-main_img:nth-of-type(4){
-    -webkit-animation-delay: 30s;
-      animation-delay: 30s; 
- }
-
- .sp-main_img:nth-of-type(5){
-    -webkit-animation-delay: 40s;
-      animation-delay: 40s; 
- }
-
- @keyframes anime {
-    0% {
-          opacity: 0;
-      }
-      8% {
-          opacity: 1;
-      }
-      17% {
-          opacity: 1;
-      }
-      35% {
-          opacity: 0;
-      }
-      100% { opacity: 0 }
-  }
-  */
 
 
 
@@ -481,43 +363,6 @@
 /*-------------------------------
              Menu
 --------------------------------*/
-
-
-/*.menulist-img{
-    display: none;
-}
-
-.menu{
-    background-color: #80645B;
-    height:500px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 6rem;
-}
-
-.menu-inner {
-    text-align: center;
-    max-width: 400px;
-    margin: auto;
-    
-}
-
-.sp_menulist-img{
-    width: 80%;
-    pointer-events: none;
-    justify-items:center;
-}*/
-
-
-
-
-
-
-
-
-
-
 
 .menu1{
     background-color: #80645B;
