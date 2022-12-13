@@ -521,7 +521,6 @@
     background-color: #80645B;
     padding: 37px;
     margin-bottom: 6rem;
-    width: 100%;
 }
 
 .menu-inner1 {
@@ -531,7 +530,9 @@
 
 .menu-list1{
     display: inline-flex;
-    flex-wrap: wrap;
+}
+
+.menu-list1-inner{
     justify-content: center;
 
 }

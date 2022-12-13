@@ -300,10 +300,10 @@ nav{
     .menu1{
         background-color: #80645B;
         padding: 50px;
-        margin-bottom: 6rem;
         border-radius: 10px;
         height: 450px;
-        width: auto;
+        max-width: 1000px;
+        margin: auto auto 350px auto;
     }
     
     .menu-inner1 {
