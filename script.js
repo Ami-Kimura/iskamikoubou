@@ -55,7 +55,9 @@ $('.dummy').click(function() {
 ////////////////////////////////////////////////
 
 
-/*pc-calendar*/
+
+
+  //pc-slider 
 $(".header-reserve").click(function () {
   $(".pc-calendar").toggleClass('open');
 });
@@ -64,19 +66,26 @@ $(".header-reserve").click(function () {
 $(".header-reserve").click(function () {
 
   });
+  ////////////////////////////////////////////////
 
 
 
 
-/*sp-calendar*/
+
+  //sp-calender
 $(".sp_reserve").click(function () {
     $(".sp-calendar").toggleClass('open');
   
 });
 
 
-  $(".sp_reserve").click(function () {
+$(".sp_reserve").click(function () {
     
-    
+});
+ ////////////////////////////////////////////////
 
-    });
+
+
+
+
+

@@ -20,6 +20,11 @@
     <script async src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/ab12745d93c5.js"></script>
     <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
     <script async src="//www.instagram.com/embed.js"></script>
+
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     
     
 
@@ -178,7 +183,23 @@
                 <img src="images/mainvisual.png" class="mainvisual-img">
 
 
-                <div class="slide">
+                        <!-- slider container -->
+        <div class="swiper">
+            <!-- slider wrapper -->
+            <div class="swiper-wrapper">
+                <!-- slide -->
+                <div class="swiper-slide" style="background-image: url('images/sp-mainvisual.png')"></div>
+                <div class="swiper-slide" style="background-image: url('images/sp-main2.png')"></div>
+                <div class="swiper-slide" style="background-image: url('images/sp-main3.png')"></div>
+                <div class="swiper-slide" style="background-image: url('images/sp-main4.png')"></div>
+                <div class="swiper-slide" style="background-image: url('images/sp-main5.png')"></div>
+            </div>
+        </div>
+
+        <!-- swiper -->
+
+
+                <!-- <div class="slide">
 
                 <div class="sp-slide-inner">
                     <div class="sp-main_img"><img src="images/sp-mainvisual.png"  class="sp-main_img1" style="background-image: url(###)"></div>
@@ -186,7 +207,32 @@
                     <div class="sp-main_img"><img src="images/sp-main3.png"  class="sp-main_img1" style="background-image: url(###)"></div>
                     <div class="sp-main_img"><img src="images/sp-main4.png"  class="sp-main_img1" style="background-image: url(###)"></div>
                     <div class="sp-main_img"><img src="images/sp-main5.png"  class="sp-main_img1" style="background-image: url(###)"></div>
-                </div>
+                </div> -->
+
+
+                <!-- slider container -->
+                <!--<div class="swiper">-->
+                    <!-- slider wrapper -->
+                    <!--<div class="swiper-wrapper">-->
+                        <!-- slide -->
+                        <!--<div class="swiper-slide"><img src="images/sp-mainvisual.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main2.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main3.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main4.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main5.png"></div>
+                    </div>
+                </div>-->
+
+
+
+                 <!--<div class="swiper-slide"><img src="images/sp-mainvisual.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main2.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main3.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main4.png"></div>
+                        <div class="swiper-slide"><img src="images/sp-main5.png"></div>-->
+              
+
+
 
                 <!-- <img src="images/sp-mainvisual.png" class="sp-mainvisual-img"> -->
 
@@ -194,6 +240,11 @@
             </div><!-- /mainvisual-inner-->
 
         </div><!-- /main-visual -->
+
+
+
+
+
 
 
 
@@ -463,6 +514,14 @@
 
     </div>
 
+
+    <script>
+        const swiper = new Swiper(".swiper", {
+        loop: true,
+        effect: 'fade',
+        speed: 1200
+         });
+     </script>
 
 </body>
 
