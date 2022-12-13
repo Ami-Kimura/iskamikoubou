@@ -54,6 +54,29 @@ h2 {
   /*--------------------------------
                 ABOUT
   ---------------------------------*/
+
+
+
+
+
+  #page-top {
+    margin-right: 0.5rem;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    text-align: center;
+    background:#F0ECE5
+  }
+  
+  #page-top i {
+    font-size: 40px;
+    color:#80645B
+  }
+  
+  #page-top p {
+    font-size: 13px;
+    color: #80645B
+  }
  
   
   

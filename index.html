@@ -29,12 +29,15 @@
     
 
     <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css">
 
 
 </head>
 
 <body>
+
+    <div id="container">
 
 
     <!-- start header -->
@@ -286,7 +289,7 @@
                  <div>
                     <img src="images/sp_menulist.png" class="sp_menulist-img">
                 </div> -->
-                
+
             </div>
         </div>
 
@@ -409,48 +412,32 @@
                     <div class="instagram-contents">
                         <div class="instagram-flex">
 
-                            <div class="insta-height">
-                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5"
-                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                                <a href="https://www.instagram.com/p/CJ5nPbLpMa0/" target="_blank"></a>
-                                </blockquote>
 
+
+
+                            <div class="insta-height">
+                                <img src="images/insta-img1.jpeg">
                             </div>
 
                             <div class="insta-height">
-                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5"
-                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                                <a href="https://www.instagram.com/p/CamosikvrIo/" target="_blank"></a>
-                                </blockquote>
+                                <img src="images/insta-img1.jpeg">
                             </div>
 
                             <div class="insta-height">
-                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5"
-                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                                <a href="https://www.instagram.com/p/CKlL4sZpjM8/" target="_blank"></a>
-                                </blockquote>
+                                <img src="images/insta-img1.jpeg">
                             </div>
 
                             <div class="insta-height">
-                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5"
-                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                                <a href="https://www.instagram.com/p/CKlRY2ipVwF/" target="_blank"></a>
-                                </blockquote>
+                                <img src="images/insta-img1.jpeg">
                             </div>
 
                             <div class="insta-height">
-                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5"
-                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                                <a href="https://www.instagram.com/p/CbWTW6aPzym/" target="_blank"></a>
-                                </blockquote>
+                                <img src="images/insta-img1.jpeg">
                             </div>
 
                             <div class="insta-height">
-                                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5"
-                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                                <a href="https://www.instagram.com/p/CLBtrEDpjuV/" target="_blank"></a>
-                                </blockquote>
-                            </div>
+                                <img src="images/insta-img1.jpeg">
+                            </div> 
                         
                         
                         
@@ -506,7 +493,21 @@
             </div>
         </div>
 
-    </div><!--  wrapper -->
+        
+    </div><!--  /wrapper -->
+
+
+
+    <div id="page-top">
+        <a href="#container">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+            <p>PAGE TOP</p>
+      </a>
+
+    </div> <!-- /page-top -->
+
+</div><!-- /container -->
+
 
     <!--  footer  -->
     <footer class="footer">
@@ -520,11 +521,15 @@
     </div>
 
 
+
     <script>
         const swiper = new Swiper(".swiper", {
         loop: true,
         effect: 'fade',
-        speed: 1200
+        speed: 1200,
+        autoplay: {
+        delay: 5000,
+                }
          });
      </script>
 

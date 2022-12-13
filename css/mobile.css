@@ -476,10 +476,17 @@
 }
 
 .insta-height{
-    width: calc(100% / 3);
-    margin: 5px;
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
 
 }
+
+.insta-height img{
+    width: 100%;
+
+}
+
+
 
 
 
