@@ -540,7 +540,7 @@
 
 
 .cut, .color, .straight,.perm{
-    width: 40%;
+    width: 135px;
     height: 180px;
     margin-bottom: 45px;
     border-radius: 80px 80px 5px 5px;
@@ -555,9 +555,8 @@
     padding: 30px 10px;
     border-radius: 60px 60px 0px 0px;
     height: 100%;
-    
-    
 }
+
     
 
 .menu-inner1 h2{
@@ -585,13 +584,17 @@
     letter-spacing: .03em;
 }
 
+.straight-inner h3{
+    font-size: 20px;
+}
+
+
 .menu-list-flex span{
     width: 30px;
     height: 1px;
     border-radius: 2px;
     background: #80645B;
 
-    
 }
 
 
