@@ -88,9 +88,9 @@ $(".sp_reserve").click(function () {
 
  $(function() {
   $(window).scroll(function () {
-     var TargetPos = 2000;
-     var ScrollPos = $(window).scrollTop();
-     if( ScrollPos >= TargetPos) {
+     var target = 2000;
+     var scroll = $(window).scrollTop();
+     if( scroll >= target) {
         $("#page-top").fadeIn();
      }
      else {
