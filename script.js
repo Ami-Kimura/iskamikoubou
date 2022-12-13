@@ -86,6 +86,21 @@ $(".sp_reserve").click(function () {
 
 
 
+ $(function() {
+  $(window).scroll(function () {
+     var TargetPos = 2000;
+     var ScrollPos = $(window).scrollTop();
+     if( ScrollPos >= TargetPos) {
+        $("#page-top").fadeIn();
+     }
+     else {
+        $("#page-top").fadeOut();
+     }
+  });
+});
+
+
+
 
 
 
