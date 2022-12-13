@@ -534,11 +534,11 @@
 }
     
 
-h2{
+.menu-list1 h2{
     color: #F0ECE5;
 }
 
-h3, p{
+.menu-list1 h3, p{
     text-align: center;
 }
 
