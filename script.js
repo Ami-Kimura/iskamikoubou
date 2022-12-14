@@ -83,14 +83,9 @@ $(".header-reserve").click(function () {
 
 
   //sp-calendar
-//$(".sp_reserve").click(function () {
-  //  $(".sp-calendar").toggleClass('open');
-     
-//});
-
 $(".sp_reserve").click(function () {
-  $(".sp-calendar").toggleClass('open').fadeOut(1800);
-   
+    $(".sp-calendar").toggleClass('open');
+     
 });
 
 
