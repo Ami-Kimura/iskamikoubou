@@ -112,6 +112,29 @@ nav{
 
 
 
+.pc-batsu{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.pc-batsu-inner{
+    position: absolute;
+    margin: 20px;   
+    
+}
+
+
+.pc-batsu-inner i {
+    font-size: 50px;
+    color: #80645B;
+  }
+
+
+
+
 @keyframes fade-in {
     0% {opacity: 0;}
   100% {opacity: 1;}
