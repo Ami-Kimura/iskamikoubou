@@ -21,12 +21,12 @@ $(".navButton").click(function () {
   
   
   
-  $("#nav-menu").click(function () {
-    $(".navButton").removeClass('active');
-      $("#nav-menu").removeClass('panelactive');
-        $(".circle-menu").removeClass('circleactive');
-          $("#header-menu").hide().fadeOut(1800);
-  });
+  //$("#nav-menu").click(function () {
+    //$(".navButton").removeClass('active');
+      //$("#nav-menu").removeClass('panelactive');
+        //$(".circle-menu").removeClass('circleactive');
+          //$("#header-menu").hide().fadeOut(1800);
+  //});
 
 ////////////////////////////////////////////////
 
@@ -75,7 +75,9 @@ $(".header-reserve").click(function () {
 });
 
 
+$(".header-reserve").click(function () {
 
+  });
   ////////////////////////////////////////////////
 
 
@@ -87,8 +89,6 @@ $(".sp_reserve").click(function () {
     $(".sp-calendar").toggleClass('open');
      
 });
-
-
 
 
 
