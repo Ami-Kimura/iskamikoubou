@@ -68,24 +68,25 @@ h2 {
 
 
 
-  #page-top {
+#page-top {
     margin-right: 0.5rem;
     position: fixed;
     bottom: 100px;
     right: 0;
     text-align: center;
     background:#F0ECE5
-  }
+}
+
   
-  
-  #page-top i {
+#page-top i {
     font-size: 30px;
     color:#80645B
-  }
+}
   
-  #page-top p {
+
+#page-top p {
     color: #80645B
-  }
+}
  
   
   
