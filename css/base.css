@@ -68,9 +68,6 @@ h2 {
 
 
 
-
-
-
   #page-top {
     margin-right: 0.5rem;
     position: fixed;
@@ -79,6 +76,7 @@ h2 {
     text-align: center;
     background:#F0ECE5
   }
+  
   
   #page-top i {
     font-size: 30px;
