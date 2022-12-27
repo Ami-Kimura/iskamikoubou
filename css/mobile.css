@@ -368,6 +368,26 @@
 }
 
 
+/*--------------------------------
+            Reservation
+---------------------------------*/
+.reservation{
+    max-width: 300px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.reservation-bt{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: solid 0;
+    background-color:#80645B;
+    color: #F0ECE5;
+}
+
+
 
 
 /*-------------------------------

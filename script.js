@@ -84,6 +84,12 @@ $(".sp_reserve").click(function () {
   $(".sp-calendar").toggleClass('open'); 
 });
 
+$(".reservation-bt").click(function () {
+  $(".sp-calendar").toggleClass('open'); 
+});
+
+
+
 
 
 
