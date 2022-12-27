@@ -73,6 +73,12 @@ $('.dummy').click(function() {
 $(".header-reserve").click(function () {
   $(".pc-calendar").toggleClass('open');
 });
+
+
+$(".reservation-bt").click(function () {
+  $(".pc-calendar").toggleClass('open'); 
+  
+});
   ////////////////////////////////////////////////
 
 
@@ -86,7 +92,10 @@ $(".sp_reserve").click(function () {
 
 $(".reservation-bt").click(function () {
   $(".sp-calendar").toggleClass('open'); 
+  
 });
+
+
 
 
 

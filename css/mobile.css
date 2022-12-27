@@ -331,6 +331,15 @@
     text-align: center;
     background-size: cover;
   }
+
+  .sp-slider{
+    display: block;
+  }
+
+  .pc-slider{
+    display: none;
+  }
+
   
   
 

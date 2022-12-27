@@ -204,29 +204,36 @@
                 </div>
                 
 
-                <img src="images/mainvisual.png" class="mainvisual-img">
+                <!-- <img src="images/mainvisual.png" class="mainvisual-img"> -->
 
 
+                <!-- slider container -->
+                <div class="sp-slider">
+                    <div class="swiper">
+                        <!-- slider wrapper -->
+                        <div class="swiper-wrapper">
+                            <!--sp slide -->
+                                <div class="swiper-slide" style="background-image: url('images/sp-main1.png')"></div>
+                                <div class="swiper-slide" style="background-image: url('images/sp-main2.png')"></div>
+                                <div class="swiper-slide" style="background-image: url('images/sp-main3.png')"></div>
+                                <div class="swiper-slide" style="background-image: url('images/sp-main4.png')"></div>
+                                <div class="swiper-slide" style="background-image: url('images/sp-main5.png')"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider container -->
+                <div class="pc-slider">
+                    
+                    <div class="swiperP">
+                        <!-- slider wrapper -->
+                        <div class="swiper-wrapper">
+                            <!--pc slide -->
+                                <div class="swiper-slide"><img src="./images/mainvisual2.png"></div>
+                                <div class="swiper-slide"><img src="./images/sp-main2.png"></div>
+                        </div>
+                    </div>
+                </div>
     
-
-
-        <!-- slider container -->
-        <div class="swiper">
-            <!-- slider wrapper -->
-            <div class="swiper-wrapper">
-                <!-- slide -->
-                <div class="swiper-slide" style="background-image: url('images/sp-main1.png')"></div>
-                <div class="swiper-slide" style="background-image: url('images/sp-main2.png')"></div>
-                <div class="swiper-slide" style="background-image: url('images/sp-main3.png')"></div>
-                <div class="swiper-slide" style="background-image: url('images/sp-main4.png')"></div>
-                <div class="swiper-slide" style="background-image: url('images/sp-main5.png')"></div>
-            </div>
-        </div>
-
-
-                
-
-
             </div><!-- /mainvisual-inner-->
 
         </div><!-- /main-visual -->
@@ -592,7 +599,6 @@
     </div>
 
 
-
     <script>
         const swiper = new Swiper(".swiper", {
         loop: true,
@@ -602,6 +608,17 @@
         delay: 5000,
                 }
          });
+        var swiperP = new Swiper('.swiperP', {
+            loop: true,
+            speed: 1200,
+            effect: 'fade',
+            fadeEffect: { 
+		        crossFade: true
+	        },
+            autoplay: {
+                delay: 5000 
+            }
+        });
      </script>
 
 
