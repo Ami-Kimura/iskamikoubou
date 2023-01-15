@@ -507,10 +507,16 @@
 
 .instagram{
     max-width: 500px;
-    margin: auto auto 140px auto;
+    margin: 0 auto;
     pointer-events: none;
-
 }
+
+
+.instagram-inner{
+    margin: 0 20px 150px 20px;
+}
+
+
 .instagram-flex{
     display: flex;
     justify-content: space-between;
@@ -547,11 +553,11 @@
 --------------------------------*/
 .access{
     max-width: 500px;
-    margin: auto auto 150px auto;
+    margin: 0 auto;
 }
 
 .access-inner {
-   margin: auto;
+   margin: 0 20px 150px 20px;
 }
 
 .map-inner {
@@ -579,8 +585,8 @@
 .info-flex{
     display: flex;
     justify-content: space-between;
-    margin: 10px 25px;
-    border-bottom: solid 1px;
+    margin: 12px 0;
+    border-bottom: 1px dotted;
     align-items: baseline;
     max-width: 400px;
 
@@ -589,11 +595,13 @@
 
 
   .info-flex1{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-
   }
 
+  .info-flex2{
+    font-size: 18px;
+  }
 
 
 
