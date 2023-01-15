@@ -367,8 +367,20 @@
     width: 100%;
     justify-content: center;
     pointer-events: none;
-
 }
+
+.staff-img{
+    display: flex;
+    justify-content: center;
+}
+
+.staff1, .staff2{
+    width:150px;
+    height: auto;
+    pointer-events: none;
+}
+
+
 
 .about-reserve{
     display: flex;

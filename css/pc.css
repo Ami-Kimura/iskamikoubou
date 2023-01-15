@@ -330,6 +330,17 @@ nav{
         pointer-events: none;
     }
 
+    .staff-img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .staff1, .staff2{
+        width: 200px;
+        height: auto;
+        pointer-events: none;
+    }
+
    
 
     .about-text-inner, .about-text-inner2{

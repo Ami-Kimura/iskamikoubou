@@ -71,6 +71,15 @@ h2 {
 }
 
 
+.staff1{
+  transform: rotate(-10deg)
+}
+
+.staff2{
+  transform: rotate(10deg)
+}
+
+
 
 #page-top {
     position: fixed;
