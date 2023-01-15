@@ -508,25 +508,22 @@ nav{
 
       .info-flex{
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
+        border-bottom: solid 1px;
+        align-items: baseline;
+        width: 400px;
+    
       }
 
-      .address-text span{
-        width: 30px;
-        height: 4px;
-        border-radius: 2px;
-        background: #80645B;
-      }
+
 
       .info-flex1{
+        font-size: 20px;
+        font-weight: bold;
 
       }
 
-      .info-flex2{
-        
-      }
 
 
     

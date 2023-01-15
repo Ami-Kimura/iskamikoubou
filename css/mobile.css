@@ -558,7 +558,7 @@
     position: relative;
     text-align: center;
     max-width: 500px;
-    max-height: 500px;
+    height: 300px;
 
 }
 
@@ -570,16 +570,29 @@
 
 
 .address-text{
-    margin-top: 2rem;
-    text-align: center;
-    color: #80645B;
+    margin-top: 50px;
 }
 
-.address-text span:nth-of-type(1){
-    color: #80645B;
-    font-weight: bold;
+
+
+
+.info-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+    border-bottom: solid 1px;
+    align-items: baseline;
+    max-width: 400px;
+
+  }
+
+
+
+  .info-flex1{
     font-size: 20px;
-}
+    font-weight: bold;
+
+  }
 
 
 
