@@ -1,7 +1,7 @@
 //loading
 $(window).on('load',function(){
-  $("#loading").delay(200).fadeOut('slow');
-  $("#loading_inner").delay(200).fadeOut('slow');
+  $("#loading").delay(100).fadeOut('slow');
+  $("#loading_inner").delay(100).fadeOut('slow');
 });
 
 ////////////////////////////////////////////////
@@ -20,13 +20,6 @@ $(".navButton").click(function () {
   });
   
   
-  
-  //$("#nav-menu").click(function () {
-    //$(".navButton").removeClass('active');
-      //$("#nav-menu").removeClass('panelactive');
-        //$(".circle-menu").removeClass('circleactive');
-          //$("#header-menu").hide().fadeOut(1800);
-  //});
 
 ////////////////////////////////////////////////
 
@@ -40,8 +33,8 @@ $(function() {
   $('a[href^="#"]').click(function() {
 
   
-    var speed = 1200;
-    var offset = 0;
+    var speed = 1700;
+    var offset = -300;
 
     var anchor = $(this).attr("href");
 

@@ -285,8 +285,6 @@ nav{
     .about-inner, .about-inner2{
         display: flex;
         justify-content: space-between;
-        
-
     }
 
 
@@ -306,7 +304,6 @@ nav{
         display: flex;
        flex-direction: row-reverse;
        justify-content: space-between;
-        
     }
 
 
@@ -317,32 +314,46 @@ nav{
         pointer-events: none;
     }
 
+    .about iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+    .about-sp-tell{
+        margin: 20px 0;
+        font-size: 22px;
+    }
+
+    .about-sp-op-clo-flex{
+        font-size: 20px;
+    }
+
+    .sp-open, .sp-close{
+        display: flex;
+        align-items: center;
+    }
+
+    .sp-open span:nth-of-type(1){
+        margin-right: 30px;
+    }
+
+    .sp-close span:nth-of-type(1){
+        margin-right: 23px;
+    }
+
+    .sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3), .sp-close span:nth-of-type(4){
+        font-size: 18px;
+    }
+
+    .sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3){
+        margin-right: 15px;
+    }
+
     
 
+    
 
-
-
-
-
-/*--------------------------------
-            Reservation
----------------------------------*/
-.reservation{
-    max-width: 900px;
-    height: 500px;
-    margin: 0 auto;
-}
-
-.reservation-bt{
-    width: 150px;
-    height: 40px;
-    margin-top: 30px;
-    border-radius: 25px;
-    border: solid 0;
-    background-color:#80645B;
-    color: #F0ECE5;
-}
-
+    
 
 
     
