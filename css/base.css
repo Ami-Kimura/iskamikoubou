@@ -66,6 +66,10 @@ h2 {
     letter-spacing: .05em;
 }
 
+.mainvisual-logo-svg{
+  filter: drop-shadow(2px 2px 4px white);
+}
+
 
 
 #page-top {
