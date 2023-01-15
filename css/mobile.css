@@ -376,7 +376,7 @@
 
 .staff1, .staff2{
     width:150px;
-    height: auto;
+    height: 150px;
     pointer-events: none;
 }
 
