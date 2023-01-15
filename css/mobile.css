@@ -354,20 +354,14 @@
                   About
     --------------------------------*/
 .about{
-    max-width: 300px;
-    height:500px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto 100px auto;
 
 }
 
-
-
-
-.about-text, .about-text2{
-    max-width: 300px;
+.about-text{
+    margin: 0 20px;
 }
-
-
 
 .about-img1, .about-img2 {
     width: 100%;
@@ -376,25 +370,36 @@
 
 }
 
-
-/*--------------------------------
-            Reservation
----------------------------------*/
-.reservation{
-    max-width: 300px;
-    height: 500px;
-    margin: 0 auto;
+.about-reserve{
+    display: flex;
+    margin: 25px auto;
+    max-width: 400px;
+    height: 300px;
 }
 
-.reservation-bt{
-    width: 150px;
-    height: 40px;
-    margin-top: 30px;
-    border-radius: 25px;
-    border: solid 0;
-    background-color:#80645B;
+.about-sp-tell {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: #80645B;
     color: #F0ECE5;
+    border-radius: 5px;
+
 }
+
+.about-sp-tell span {
+    font-size: 25px;
+}
+
+.about-sp-op-clo-flex {
+    display: flex;
+    margin: 30px 10px 10px 10px;
+    justify-content: space-around;
+}
+
+
+
 
 
 
@@ -501,7 +506,7 @@
 --------------------------------*/
 
 .instagram{
-    max-width: 300px;
+    max-width: 500px;
     margin: auto auto 140px auto;
     pointer-events: none;
 
@@ -541,7 +546,7 @@
             Access
 --------------------------------*/
 .access{
-    max-width: 300px;
+    max-width: 500px;
     margin: auto auto 150px auto;
 }
 
@@ -552,12 +557,14 @@
 .map-inner {
     position: relative;
     text-align: center;
+    max-width: 500px;
+    max-height: 500px;
 
 }
 
 .map-inner iframe {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
