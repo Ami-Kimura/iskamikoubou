@@ -34,7 +34,7 @@ $(function() {
 
   
     var speed = 1700;
-    var offset = -300;
+    var offset = -100;
 
     var anchor = $(this).attr("href");
 
@@ -90,12 +90,9 @@ $(".reservation-bt").click(function () {
 
 
 
+////////////////////////////////////////////////
 
 
-
-
-
- ////////////////////////////////////////////////
 
 
 

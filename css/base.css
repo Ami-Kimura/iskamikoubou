@@ -62,8 +62,16 @@ body {
 h2 {
     font-size: 180%;
     text-align: left;
-    padding: auto;
     letter-spacing: .05em;
+}
+
+
+h3 {
+  margin-bottom: 15px;
+}
+
+h4{
+  margin-bottom: 20px;
 }
 
 .mainvisual-logo-svg{
@@ -99,6 +107,10 @@ h2 {
 #page-top p {
     color: #80645B
 }
+
+
+
+
  
 
 

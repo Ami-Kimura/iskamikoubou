@@ -8,6 +8,7 @@
 
 .wrapper{
     margin: 0 auto;
+    max-width: 93.75rem;
 }
 
 /*--------------------------------
@@ -293,16 +294,22 @@ nav{
       }
 
     .swiper-slide img {
-        width: 100%;
+        /*width: 100%;
         height: 800px;
-        object-fit: contain;
+        object-fit: contain;*/
+        display: block;
+        width: 100%;
+        height: auto;
     }
+
    .sp-slider{
     display: none;
    }
 
    .pc-slider{
-    display: block;
+    /*display: block;*/
+    margin-right: calc(50% - 50vw);
+	margin-left: calc(50% - 50vw);
    }
 
 
@@ -315,20 +322,32 @@ nav{
     /*--------------------------------
                 About
     ---------------------------------*/
+   .about-space-contents, .event-reserve-contents{
+    max-width: 84.5rem;
+    margin: 0 auto;
+    width: calc(88% - 10pc);
+   }
+
+
+
     .about{
-        max-width: 900px;
         margin: auto auto 250px auto;
     }
 
-    .about-inner, .about-inner2{
+    .about-inner{
         display: flex;
         justify-content: space-between;
     }
 
 
+
     .about-img{
+        width: 714px;
+        border-radius: 5px;
         pointer-events: none;
     }
+
+
 
     .staff-img{
         display: flex;
@@ -343,8 +362,9 @@ nav{
 
    
 
-    .about-text-inner, .about-text-inner2{
-        width: 400px;
+    .about-text-inner{
+        margin-right: 90px;
+        width: calc(100% - 600px);
     }
 
     .about-text h2{
@@ -353,56 +373,208 @@ nav{
 
 
 
-    .about-inner2{
-        display: flex;
-       flex-direction: row-reverse;
-       justify-content: space-between;
+/*--------------------------------
+                Space
+---------------------------------*/
+.space{
+    margin: auto auto 250px auto;
+}
+
+.space-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.space-img{
+    pointer-events: none;
+    width: 714px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+.space-text-inner{
+    margin-left: 90px;
+    width: calc(100% - 600px);
+
+}
+
+.space-text h2{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+   /*--------------------------------
+                Technic
+    ---------------------------------*/
+    .technic{
+        position: relative;
+        margin: 0 0 300px 0;
     }
 
 
 
-    .about-img1, .about-img2{
-        width: 400px;
+    .technic-img-inner{
+        margin-right: calc(50% - 50vw);
+	    margin-left: calc(50% - 50vw);
+
+    }
+
+    .technic-img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+      .technic-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 84.5rem;
+        height: 35.625rem;
+
+      }
+
+    .technic-mosaic{
+        background-color: #f0ece5db;
         border-radius: 5px;
-        pointer-events: none;
-    }
-
-    .about iframe{
-        width: 400px;
-        height: 300px;
-    }
-
-    .about-sp-tell{
-        margin: 20px 0;
-        font-size: 22px;
-        color:orangered;
-    }
-
-    .about-sp-op-clo-flex{
-        font-size: 20px;
-    }
-
-    .sp-open, .sp-close{
+        height: 100%;
+        width: 100%;
+        align-items: center;
         display: flex;
+        justify-content: center;
+        transform: translate(-50%,-50%)
+      
+    }
+
+    .technic-text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
         align-items: center;
     }
 
-    .sp-open span:nth-of-type(1){
-        margin-right: 30px;
+    .technic h2{
+        margin-bottom: 20px;
     }
 
-    .sp-close span:nth-of-type(1){
-        margin-right: 23px;
-    }
 
-    .sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3), .sp-close span:nth-of-type(4){
-        font-size: 18px;
-    }
+ /*--------------------------------
+             Event
+ ---------------------------------*/
+ .event{
+    margin: auto auto 250px auto;
+}
 
-    .sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3){
-        margin-right: 15px;
-    }
+.event-inner{
+    display: flex;
+    justify-content: space-between;
+}
 
+
+.event-img{
+    width: 714px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+
+.event-text-inner{
+    margin-right: 90px;
+    width: calc(100% - 600px);
+}
+
+.event-text h2{
+    margin-bottom: 20px;
+}
+
+
+
+    
+
+
+
+ /*--------------------------------
+            Reservation
+---------------------------------*/
+.reserve{
+    margin: auto auto 250px auto;
+}
+
+.reserve-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.reserve-img{
+    pointer-events: none;
+    width: 714px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+.reserve-text-inner{
+    margin-left: 90px;
+    width: calc(100% - 600px);
+
+}
+
+.reserve-text h2{
+    margin-bottom: 20px;
+}
+
+.reserve iframe{
+    width: 500px;
+    height: 500px;
+}
+
+.about-sp-tell{
+    margin: 20px 0;
+    font-size: 22px;
+    color:orangered;
+}
+
+.about-sp-op-clo-flex{
+    font-size: 20px;
+}
+
+.sp-open, .sp-close{
+    display: flex;
+    align-items: center;
+}
+
+.sp-open span:nth-of-type(1){
+    margin-right: 30px;
+}
+
+.sp-close span:nth-of-type(1){
+    margin-right: 23px;
+}
+
+.sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3), .sp-close span:nth-of-type(4){
+    font-size: 18px;
+}
+
+.sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3){
+    margin-right: 15px;
+}
+
+    
 
     
 
@@ -419,7 +591,7 @@ nav{
  .menu{
     background-color: #80645B;
     border-radius: 10px;
-    max-width: 900px;
+    max-width: 84.5rem;
     margin: auto auto 300px auto;
     
 }
@@ -442,10 +614,10 @@ nav{
 
 
 .cut, .color, .straight,.perm{
-    width: 135px;
-    height: 170px;
+    width: 220px;
+    height: 300px;
     margin-bottom: 45px;
-    border-radius: 80px 80px 5px 5px;
+    border-radius: 120px 120px 5px 5px;
     background: #F0ECE5
      
     
@@ -454,9 +626,10 @@ nav{
 
 
 .cut-inner, .color-inner, .straight-inner,.perm-inner{
-    padding: 30px 10px;
-    border-radius: 60px 60px 0px 0px;
+    padding: 60px 10px;
     height: 100%;
+    width: fit-content;
+    margin: 0 auto;
 }
 
     
@@ -474,8 +647,8 @@ nav{
 }
 
 .menu-inner h3{
-    margin-bottom: 10px;
-    font-size: 22px;
+    margin-bottom: 30px;
+    font-size: 30px;
     letter-spacing: .07em;
 }
 
@@ -488,9 +661,6 @@ nav{
     letter-spacing: .03em;
 }
 
-.straight-inner h3{
-    font-size: 20px;
-}
 
 
 .menu-list-flex span{
@@ -498,6 +668,12 @@ nav{
     height: 1px;
     border-radius: 2px;
     background: #80645B;
+
+}
+
+
+.menu-list-flex p{
+    font-size: 1.2rem;
 
 }
 
@@ -512,6 +688,8 @@ nav{
     color:#F0ECE5
 }
 
+
+
    
     
     
@@ -519,11 +697,17 @@ nav{
                 Instagram
     ---------------------------------*/
     .instagram{
-        max-width: 900px;
+        position: relative;
+        max-width: 84.5rem;
         margin: auto auto 300px auto;
+        width: calc(88% - 10pc);
         pointer-events: none;
-
     }
+
+
+    
+
+
     .instagram-flex{
         display: flex;
         justify-content: space-between;
@@ -541,20 +725,29 @@ nav{
 
     .insta-height img{
         width: 100%;
-    
     }
+
+
+ 
+
+
     
     
     /*--------------------------------
                 Access
     ---------------------------------*/
     .access{
-        max-width: 900px;
+        max-width: 84.5rem;
         margin: 0 auto;
+        width: calc(88% - 10pc);
     }
 
     .access-inner{
         margin-bottom: 200px;
+    }
+
+    .access-inner h2{
+        margin-bottom: 20px;
     }
 
 
@@ -564,13 +757,22 @@ nav{
         justify-content: space-between;
     }
 
+    .map{
+        margin-right: 60px;
+        width: calc(100% - 560px);
+    }
+
  
     
     .map iframe{
-        width: 550px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         border-radius: 10px;
         
+    }
+
+    .address-text{
+        width: 600px;
     }
     
 
@@ -580,8 +782,9 @@ nav{
         justify-content: space-between;
         margin-bottom: 25px;
         border-bottom: 1px dotted;
-        align-items: baseline;
+        align-items: center;
         min-width: 300px;
+        line-height: 2.5;
     
       }
 
@@ -604,6 +807,7 @@ nav{
     .footer{
         text-align: center;
         background-color: #80645B;
+        color: #F0ECE5;
         padding-top: 2rem;
         padding-bottom: 1.5rem;
         width: 100%;
@@ -611,18 +815,45 @@ nav{
 
 
     .footer-logo-inner{
-        align-items: center;
+        margin-bottom: 30px;
     }
 
 
     
     .footer-logo{
         width: 100%;
-        height: 60px;
+        height: 100px;
+    }
+
+
+    .footer-all-contents{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px auto;
+        max-width: 84.5rem;
+        width: calc(88% - 10pc);
+    }
+
+    .footer-contents{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+
+    .footer-access, .footer-hour{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 100px;
     }
 
     
     .footer p{
-        margin-top: 1rem;
+        display: flex;
+
+    }
+
+    .follow a {
         color: #F0ECE5;
     }
