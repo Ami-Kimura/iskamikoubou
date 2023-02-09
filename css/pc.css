@@ -15,7 +15,7 @@
             header
 ---------------------------------*/
 .header {
-    height: 90px;
+    height: 60px;
     line-height: 90px;
     padding: 10px 0;
     display: flex;
