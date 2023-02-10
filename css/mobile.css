@@ -1,8 +1,12 @@
 /*-------------------------------
-              Mobile  max-width: 768px
+              Mobile  max-width: 480px
 --------------------------------*/
 
-/*　画面サイズが768px以下の場合ここの記述が適用される　*/
+/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+
+body{
+    font-size: 15px;
+}
 
 
 
@@ -154,7 +158,7 @@
     display: none;
 }
 
-/*-------- reserve ----------*/
+/*-------- header reserve ----------*/
 .header-reserve {
     display: none;
 }
@@ -171,8 +175,6 @@
     height: 55px;
     object-fit: contain;
 }
-
-
 
 
 .sp-calendar{
@@ -192,20 +194,18 @@
 }
 
 .sp-tell span:nth-of-type(2){
-    color: #80645B;
+    color:orangered;
     font-weight: bold;
     font-size: 30px;
 }
 
-
-
-
-.sp_dec_calendar{
-    margin: 20px;
+.sp_googlecalendar{
+    margin: 120px 20px 50px 20px;
 }
 
+
+
 .sp_dec_calendar{
-    margin-top: 50px;
     width: 300px;   
     height: 300px;
 }
@@ -213,13 +213,20 @@
 
 .sp-op-clo-flex{
     display: flex;
-    margin: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: calc(100% - 380px) calc(100% - 330px);
 }
 
 .sp-open, .sp-close{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.8;
     font-size: 18px;
 }
+
+
+
 
 .sp-open span:nth-of-type(1), .sp-close span:nth-of-type(1){
     font-size: 20px;
@@ -250,15 +257,17 @@
   100% {opacity: 1;}
 }
 
+.sp-calendar-contents{
+    margin: 0 calc(80% - 320px);
+}
+
 
 
 
 .batsu{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    top: 25px;
-    left: 322px;
+    position: fixed;
+    top: 2%;
+    right: 6%;
 }
 
 
@@ -304,7 +313,7 @@
     max-width: 80px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,250%);
+    transform: translate(-50%,290%);
     
 }
 
@@ -326,7 +335,6 @@
   .swiper-slide {
     /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
     width: 100%;
-    /* height: 100%; */
     padding-top: 700px;
     text-align: center;
     background-size: cover;
@@ -354,16 +362,14 @@
                   About
     --------------------------------*/
 .about{
-    max-width: 500px;
     margin: 0 auto 100px auto;
-
 }
 
 .about-text-inner{
     margin: 0 20px;
 }
 
-.about-img1, .about-img2 {
+.about-img{
     width: 100%;
     justify-content: center;
     pointer-events: none;
@@ -402,53 +408,114 @@
 
 
 
-
-.sp-open, .sp-close{
-    display: flex;
-    align-items: center;
-}
-
-.sp-open span:nth-of-type(1){
-    margin-right: 30px;
-}
-
-.sp-close span:nth-of-type(1){
-    margin-right: 23px;
-}
-
-
-
-.sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3){
-    margin-right: 15px;
-}
-
 .about-sp-tell{
     margin: 20px 0;
     color:orangered;
 }
 
 
+/*-------------------------------
+            Space
+--------------------------------*/
+.space-img{
+    width: 100%;
+    pointer-events: none;
+}
 
-.sp-open, .sp-close{
-    display: flex;
+
+
+/*-------------------------------
+            Technic
+--------------------------------*/
+.technic-img{
+    width:100%;
+    pointer-events: none;
+}
+
+
+.technic{
+    position: relative;
+    margin: 0 0 100px 0;
+}
+
+
+
+.technic-img-inner{
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+
+}
+
+
+
+
+  .technic-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+
+.technic-mosaic{
+    background-color: #f0ece5db;
+    border-radius: 5px;
+    width: calc(100% - -160px);
     align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%,-50%)
+  
 }
 
-.sp-open span:nth-of-type(1){
-    margin-right: 30px;
+.technic-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    margin: 15px;
 }
 
-.sp-close span:nth-of-type(1){
-    margin-right: 23px;
+.technic h2{
+    margin-bottom: 8px;
 }
 
-.sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3), .sp-close span:nth-of-type(4){
-    font-size: 15px;
+
+
+/*-------------------------------
+            Event
+--------------------------------*/
+.event{
+    position: relative;
+    margin: 0 20px 160px 20px;
 }
 
-.sp-close span:nth-of-type(2), .sp-close span:nth-of-type(3){
-    margin-right: 15px;
+.event h3{
+    color: #ee827c;
 }
+
+.event-text{
+    position: relative;
+    z-index: 5;
+}
+
+.event-img-inner{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 4;
+}
+
+.event-img{
+    width: 80%;
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+
+
+
+
 
 
 
@@ -647,12 +714,11 @@
 
 
   .info-flex1{
-    font-size: 18px;
     font-weight: bold;
   }
 
   .info-flex2{
-    font-size: 18px;
+    font-size: 13px;
   }
 
 

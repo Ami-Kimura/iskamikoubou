@@ -307,7 +307,6 @@ nav{
    }
 
    .pc-slider{
-    /*display: block;*/
     margin-right: calc(50% - 50vw);
 	margin-left: calc(50% - 50vw);
    }
