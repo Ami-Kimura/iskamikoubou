@@ -14,6 +14,10 @@ body {
     color: #80645B;
     background-color: #F0ECE5;
 }
+
+body,html{
+  overflow-x: hidden;
+}
   
   /*-------------------------------
               LAYOUT
@@ -54,10 +58,6 @@ body {
   }
 
 
-  #wrapper {
-    margin: auto;
-}
-
 
 h2 {
     font-size: 180%;
@@ -71,7 +71,7 @@ h3 {
 }
 
 h4{
-  margin-bottom: 20px;
+  
 }
 
 .mainvisual-logo-svg{
@@ -91,8 +91,8 @@ h4{
 
 #page-top {
     position: fixed;
-    bottom: 100px;
-    right: 20px;
+    top: 88%;
+    right: 4%;
     text-align: center;
     background:#F0ECE5
 }

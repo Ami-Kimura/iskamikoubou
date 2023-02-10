@@ -15,13 +15,13 @@
             header
 ---------------------------------*/
 .header {
-    height: 60px;
+    height: 100px;
     line-height: 90px;
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 90px 0 55px 0;
+    margin: 60px 0 20px 0;
 }
 
 .header-logo-inner {
@@ -821,8 +821,15 @@ nav{
 
     
     .footer-logo{
-        width: 100%;
+        width: 80%;
         height: 100px;
+    }
+
+
+    .footer-logo-copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 
@@ -836,8 +843,7 @@ nav{
 
     .footer-contents{
         display: flex;
-        justify-content: flex-end;
-
+        align-items: flex-start;
     }
 
 
@@ -846,6 +852,39 @@ nav{
         flex-direction: column;
         align-items: flex-start;
         margin-right: 100px;
+    }
+
+
+
+    .footer-hour span{
+        width: 12px;
+        height: 1px;
+        margin: 0 10px;
+        transform: rotate(90deg);
+        background:#F0ECE5;
+    }
+
+    
+
+    .footer-hour-open{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-hour-close{
+        display: flex;
+        
+    }
+
+    .footer-hour-close h4{
+        line-height: 3px;
+    
+    }
+
+    .footer-day p{
+        white-space: pre-line;
+        line-height: 3px;
     }
 
     
