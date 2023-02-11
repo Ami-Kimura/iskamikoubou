@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
 @import url('base.css') screen; /* Common Base */
-@import url('mobile.css') screen and (max-width: 480px); /* Mobile Only */
-@import url('tablet.css') screen and (min-width: 480.1px) and (max-width: 768px); /* Tablet tate */
-@import url('tablet-yoko.css') screen and (min-width: 768.1px) and (max-width: 1289.9px); /* Tablet yoko*/
-@import url('pc.css') screen and (min-width: 1290px); /* PC Only */
+@import url('mobile.css') screen and (max-width: 800px); /* Mobile Only */
+@import url('tablet.css') screen and (min-width: 800.1px) and (max-width: 1279.9px); /* Tablet tate */
+@import url('pc.css') screen and (min-width: 1280px); /* PC Only */
 
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480
