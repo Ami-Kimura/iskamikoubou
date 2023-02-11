@@ -828,8 +828,9 @@ nav{
     .footer-all-contents{
         display: flex;
         justify-content: space-between;
-        margin: 50px auto;
-        width: calc(88% - 3pc);
+        margin: 20px 40px;
+        max-width: 800px;
+        
     }
 
     .footer-contents{
