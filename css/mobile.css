@@ -553,6 +553,7 @@ body{
 
 .event-img{
     width: 80%;
+    height: auto;
     opacity: 0.4;
     pointer-events: none;
 }
