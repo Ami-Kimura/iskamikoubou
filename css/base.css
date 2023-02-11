@@ -12,7 +12,8 @@ body {
     font-family: 'DIN 2014',  YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
     font-size: 16px;
     color: #80645B;
-    background-color: #F0ECE5;
+    /*background-color: #F0ECE5;*/
+    background: linear-gradient(to right, #f0ece5, #ffffff);
 }
 
 body,html{
