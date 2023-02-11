@@ -1,8 +1,7 @@
 /*-------------------------------
-             pc.css  min-width: 769px
+             pc.css  
 --------------------------------*/
 
-/*　画面サイズが769px以上の場合ここの記述が適用される　*/
 
 
 
@@ -341,7 +340,7 @@ nav{
 
 
     .about-img{
-        width: 714px;
+        width: 100%;
         border-radius: 5px;
         pointer-events: none;
     }
@@ -385,16 +384,19 @@ nav{
 }
 
 
+.space-img-inner{
+    margin-right: 80px;
+    width: calc(100% - 600px);
+}
+
 .space-img{
     pointer-events: none;
-    width: 714px;
+    width: 100%;
     border-radius: 5px;
-    pointer-events: none;
 }
 
 
 .space-text-inner{
-    margin-left: 90px;
     width: calc(100% - 600px);
 
 }
@@ -484,7 +486,7 @@ nav{
 
 
 .event-img{
-    width: 714px;
+    width: 100%;
     border-radius: 5px;
     pointer-events: none;
 }
@@ -493,7 +495,7 @@ nav{
 
 .event-text-inner{
     margin-right: 90px;
-    width: calc(100% - 600px);
+    width: calc(100% - -229px);
 }
 
 .event-text h2{
@@ -771,7 +773,7 @@ nav{
     }
 
     .address-text{
-        width: 600px;
+        width: calc(100% - 540px);
     }
     
 
@@ -793,6 +795,11 @@ nav{
         font-size: 20px;
         font-weight: bold;
 
+      }
+
+      .info-flex2 span{
+        word-wrap: break-word;
+        
       }
 
 
@@ -895,3 +902,9 @@ nav{
     .follow a {
         color: #F0ECE5;
     }
+
+    .sp-footer-copy{
+        display: none;
+    
+    }
+    
