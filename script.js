@@ -1,8 +1,9 @@
 //loading
-$(window).on('load',function(){
-  $("#loading").delay(100).fadeOut('slow');
-  $("#loading_inner").delay(100).fadeOut('slow');
+$(document).ready(function(){
+  $("#loading").delay(1000).fadeOut('slow');
+  $("#loading_inner").delay(1000).fadeOut('slow');
 });
+
 
 ////////////////////////////////////////////////
 
@@ -16,7 +17,7 @@ $(".navButton").click(function () {
   $(this).toggleClass('active');
    $("#nav-menu").toggleClass('panelactive');
      $(".circle-menu").toggleClass('circleactive');
-        $("#header-menu").hide().fadeIn(1800);
+        $("#header-menu").hide().fadeIn(1000);
   });
   
   

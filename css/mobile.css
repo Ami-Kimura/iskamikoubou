@@ -25,8 +25,8 @@ body{
 .navButton {
     position: relative;
     z-index: 40;
-    width: 30px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     left: 25px;
 }
 
@@ -212,8 +212,8 @@ body{
 
 .sp-op-clo-flex{
     display: flex;
-    justify-content: space-between;
-    margin: calc(100% - 380px) calc(100% - 330px);
+    justify-content: center;
+    
 }
 
 .sp-open, .sp-close{
@@ -222,6 +222,10 @@ body{
     flex-direction: column;
     line-height: 0.8;
     font-size: 18px;
+}
+
+.sp-open{
+    margin-right: 20px;
 }
 
 
@@ -257,7 +261,7 @@ body{
 }
 
 .sp-calendar-contents{
-    margin: 0 calc(80% - 320px);
+    margin: 0 10px;
 }
 
 
