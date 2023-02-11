@@ -59,7 +59,7 @@ nav{
   nav ul li a {
     position: relative;
     color: #80645B;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: .08em;
   }
 
@@ -95,7 +95,7 @@ nav{
 .header-reserve a{
     position: relative;
     color: #80645B;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: .1em;
 }
 
@@ -252,7 +252,7 @@ nav{
               main visual
 --------------------------------*/
 .main-visual{
-  max-width: 1500px;
+  max-width: 1200px;
     margin: auto;
 } 
 
@@ -376,34 +376,38 @@ nav{
                 Space
 ---------------------------------*/
 .space{
-    margin: auto auto 250px auto;
+    margin: 0 auto 570px auto;
 }
 
 .space-inner{
-    display: flex;
-    justify-content: space-between;
+    position: relative;
 }
 
+.space-text-inner{
+    position: relative;
+    margin: 0 0 0 140px;
+    width: 80%;
+    top: 400px;
+    background: #F0ECE5;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.space-text{
+    margin-left: 20px;
+}
 
 .space-img-inner{
-    margin-right: 80px;
-    width: calc(100% - 600px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    z-index: 1;
 }
 
 .space-img{
-    pointer-events: none;
     width: 100%;
-    border-radius: 5px;
-}
-
-
-.space-text-inner{
-    width: calc(100% - 600px);
-
-}
-
-.space-text h2{
-    margin-bottom: 20px;
+    pointer-events: none;
 }
 
 
@@ -420,7 +424,7 @@ nav{
     ---------------------------------*/
     .technic{
         position: relative;
-        margin: 0 0 300px 0;
+        margin: 0 0 160px 0;
     }
 
 
@@ -507,6 +511,10 @@ nav{
     margin-bottom: 20px;
 }
 
+.event h3{
+    color: #ee827c;
+}
+
 
 
     
@@ -566,23 +574,15 @@ nav{
 
     
 
-    
 
-    
-
-    
-
-
-    
     
  /*--------------------------------
                 Menu
 ---------------------------------*/
-
 .menu{
     background-color: #80645B;
     border-radius: 10px;
-    margin: auto auto 300px auto;
+    margin: auto auto 160px auto;
     height: 360px;
     max-width: 800px;
     
@@ -629,7 +629,6 @@ nav{
     
 
 .menu-inner h2{
-    font-size: 180%;
     color: #F0ECE5;
     text-align: center;
     margin-bottom: 25px;
@@ -685,7 +684,7 @@ nav{
     .instagram{
         position: relative;
         max-width: 84.5rem;
-        margin: auto auto 300px auto;
+        margin: auto auto 160px auto;
         width: calc(88% - 10pc);
         pointer-events: none;
     }
@@ -819,7 +818,7 @@ nav{
     
     .footer-logo{
         width: 80%;
-        height: 100px;
+        height: 70px;
     }
 
 
@@ -833,9 +832,8 @@ nav{
     .footer-all-contents{
         display: flex;
         justify-content: space-between;
-        margin: 60px auto;
-        max-width: 84.5rem;
-        width: calc(88% - 10pc);
+        margin: 50px auto;
+        width: calc(88% - 3pc);
     }
 
     .footer-contents{
@@ -848,7 +846,7 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-right: 100px;
+        margin-right: 2.5rem;
     }
 
 
@@ -889,7 +887,7 @@ nav{
       }
 
     .follow i{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     
