@@ -679,10 +679,8 @@ nav{
     ---------------------------------*/
     .instagram{
         position: relative;
-        max-width: 84.5rem;
-        margin: auto auto 160px auto;
-        width: calc(88% - 10pc);
-        pointer-events: none;
+        max-width: 800px;
+        margin: 0 auto 160px auto;
     }
 
 
